@@ -13,7 +13,6 @@ Break down what will happen line by line.
       Declaring a variable of type int with the name i.
 
    </details>
-   <br></br>
 
    * i = 0;
       *At this point i has already been declared.
@@ -21,8 +20,6 @@ Break down what will happen line by line.
       Setting a variable of type integer equal to 0.
 
    </details>
-   <br></br>
-   
    * int j = 30
    <details>
    <summary>Spoiler!</summary>
