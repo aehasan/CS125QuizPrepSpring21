@@ -10,11 +10,11 @@
 # Conceptual Overview
 
 ### Types
-*All data in java is a combination of the primitive types
-   * Integer values: byte, short, int, and long
-   * Floating point values: float and double
-   * Boolean values: boolean
-   * Characters: char
+      * All data in java is a combination of the primitive types
+      * Integer values: byte, short, int, and long
+      * Floating point values: float and double
+      * Boolean values: boolean
+      * Characters: char
    
 * Why Types?
    * Pros
