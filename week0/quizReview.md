@@ -16,13 +16,13 @@
       * Boolean values: boolean
       * Characters: char
    
-* Why Types?
-   * Pros
-     * You will be sure what type of data is in every variable
-   * Cons
-      * There are rules for variables, they are not flexible
-      
-      <br></br>
+      * Why Types?
+         * Pros
+            * You will be sure what type of data is in every variable
+         * Cons
+            * There are rules for variables, they are not flexible
+        
+   <br></br>
 
 ### Conceptual Practice
    * int i;
