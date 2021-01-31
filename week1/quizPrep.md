@@ -1,4 +1,4 @@
-# Week 0 Quiz Prep
+# Week 1 Quiz Prep
 
 **Disclaimer: This document is meant to supplement other studying materials, not replace them**<br>
 Here’s a link to use when you want to experiment with Java code: https://www.tutorialspoint.com/compile_java_online.php
