@@ -27,6 +27,8 @@
    <br></br>
 
 ### Conceptual Practice
+**Explain what is happening line by line**
+
     int i;
    <details>
    <summary>Spoiler!</summary>
