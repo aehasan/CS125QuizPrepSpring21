@@ -246,10 +246,15 @@ Come on, you know Dr. Evil won't let you easily walk away from his course! Dr. E
    
    # Credit
    Chengze Shen
+   
    Charlotte Lambert
+   
    Naina Balepur
+   
    Harsh Deep
+   
    Rohan Khatu
+   
    Ahmed Hasan
    
    
