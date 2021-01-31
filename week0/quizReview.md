@@ -16,8 +16,9 @@ Break down what will happen line by line.
    * i = 0;
    
       *At this point i has already been declared.
-    <details>
-    <summary>Spoiler!</summary>
+    
+   <details>
+   <summary>Spoiler!</summary>
       Setting a variable of type integer equal to 0.
 
    </details>
@@ -27,7 +28,6 @@ Break down what will happen line by line.
       Did you notice the missing semi-colon? The program will crash and burn.
 
    </details>
-   <br></br>
    
    * int oof = 7.2;
    <details>
