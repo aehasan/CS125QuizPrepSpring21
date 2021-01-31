@@ -4,9 +4,9 @@
     * Variables/Types
     * Operations
     * Conditional Expressions/Statements
+   <br></br>
 
 # Conceptual Overview
-   <br></br>
 
 ### Types
 *All data in java is a combination of the primitive types
@@ -50,6 +50,6 @@
    </details>
    <br></br>
    
-   ### Practice Problems
+   # Practice Problems
    
    
