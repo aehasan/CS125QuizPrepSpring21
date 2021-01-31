@@ -26,7 +26,7 @@
    <br></br>
 
 ### Conceptual Practice
-       int i;
+    int i;
    <details>
    <summary>Spoiler!</summary>
    
@@ -35,7 +35,7 @@
       <br></br>
 
 
-       i = 0;
+    i = 0;
    
          *At this point i has already been declared.
     
@@ -47,7 +47,7 @@
       <br></br>
 
    
-       int j = 30
+    int j = 30
    <details>
    <summary>Spoiler!</summary>
    
@@ -56,7 +56,7 @@
       <br></br>
 
     
-       int oof = 7.2;
+    int oof = 7.2;
    <details>
    <summary>Spoiler!</summary>
       
