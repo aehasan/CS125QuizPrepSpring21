@@ -24,7 +24,7 @@ Break down what will happen line by line.
    <br></br>
    
    * int j = 30
-   
+   <details>
    <summary>Spoiler!</summary>
       Did you notice the missing semi-colon? The program will crash and burn.
 
@@ -32,7 +32,7 @@ Break down what will happen line by line.
    <br></br>
    
    * int oof = 7.2;
-   
+   <details>
    <summary>Spoiler!</summary>
       We have declared a variable of type int. However we have set it equal to 7.2. Unlike doubles an int is not capabale of having decimals. So it will be equal to 7.
    </details>
