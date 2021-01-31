@@ -20,7 +20,6 @@ Break down what will happen line by line.
    <details>
    <summary>Spoiler!</summary>
       Setting a variable of type integer equal to 0.
-
    </details>
    * int j = 30
    <details>
@@ -31,7 +30,6 @@ Break down what will happen line by line.
    <details>
    <summary>Spoiler!</summary>
       We have declared a variable of type int. However we have set it equal to 7.2. Unlike doubles an int is not capabale of having decimals. So it will be equal to 7.
-   
    </details>
    <br></br>
    
