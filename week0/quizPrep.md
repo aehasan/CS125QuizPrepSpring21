@@ -110,8 +110,6 @@
    Conditional statements allow the computer to make decisions based off data that you decide
    
    Useful Operands include:
-   == NOTE: This is not the same as the "=" operand. "=" is an assignment operator while "==" is a comparison operator 
-   
    ```
    < 
    > 
@@ -120,6 +118,7 @@
    ==
    !=
    ```
+   NOTE: "==" is not the same as the "=" operand. "=" is an assignment operator while "==" is a comparison operator 
    
    The easiest way to understand these is using examples so here are a few. The following code snippets contain conditionals we have learned so far
     
