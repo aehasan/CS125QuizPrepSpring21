@@ -164,7 +164,7 @@
    }
    ```
    #### Bonus
-   Mixing up || and && operators are doable, but && operators will take priority to be examined:
+   Mixing up || and && operators is doable, but && operators will take priority to be examined:
    ```java
    /* This will print "a"  */
    if (true || true && false) {
