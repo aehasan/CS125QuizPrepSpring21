@@ -2,27 +2,27 @@
 
 **Disclaimer: This document is meant to supplement other studying materials, not replace them**
 ### Concepts
-    * Variables/Types
-    * Operations
-    * Conditional Expressions/Statements
+   * Variables/Types
+   * Operations
+   * Conditional Expressions/Statements
    <br></br>
    
 
 # Conceptual Overview
 
 ### Types
-      * All data in java is a combination of the primitive types
-      * Integer values: byte, short, int, and long
-      * Floating point values: float and double
-      * Boolean values: boolean
-      * Characters: char
+   * All data in java is a combination of the primitive types
+   * Integer values: byte, short, int, and long
+   * Floating point values: float and double
+   * Boolean values: boolean
+   * Characters: char
    <br></br>
 
-      * Why Types?
-         * Pros
-            * You will be sure what type of data is in every variable
-         * Cons
-            * There are rules for variables, they are not flexible
+   * Why Types?
+       * Pros
+          * You will be sure what type of data is in every variable
+        * Cons
+           * There are rules for variables, they are not flexible
         
    <br></br>
 
@@ -31,19 +31,19 @@
    <details>
    <summary>Spoiler!</summary>
    
-         Declaring a variable of type int with the name i.
+   Declaring a variable of type int with the name i.
    </details>
       <br></br>
 
 
     i = 0;
    
-         *At this point i has already been declared.
+         //At this point i has already been declared.
     
    <details>
    <summary>Spoiler!</summary>
        
-         Setting a variable of type integer equal to 0.
+   Setting a variable of type integer equal to 0.
    </details>
       <br></br>
 
@@ -52,7 +52,7 @@
    <details>
    <summary>Spoiler!</summary>
    
-         Did you notice the missing semi-colon? The program will crash and burn.
+   Did you notice the missing semi-colon? The program will crash and burn.
    </details>
       <br></br>
 
@@ -61,37 +61,38 @@
    <details>
    <summary>Spoiler!</summary>
       
-         We have declared a variable of type int. However we have set it equal to 7.2. 
-         Unlike doubles an int is not capabale of having decimals. So it will be equal to 7.
+   We have declared a variable of type int. However we have set it equal to 7.2. 
+   Unlike doubles an int is not capabale of having decimals. So it will be equal to 7.
    </details>
    <br></br>
    
    ### Modifying Existing Variables
    *There are multiple ways we can modify variables that have already been initialized:*
    
-    "=" : Assings a variable on the left side to watever is on the right side. 
+   "=" : Assings a variable on the left side to watever is on the right side. 
    <br></br>
    
-    The following perform an operation on the existing variable:
-      +=
-      -=
-      *=
-      /=
+   The following perform an operation on the existing variable:
+   +=
+   -=
+   *=
+   /=
       
-        The following increment/decrement the variable by one:
-         ++
-         --
+   The following increment/decrement the variable by one:  
+   ++
+   --   
    <br></br>
    
-    The "%" symbol is known as the mod operator and is equivalent to finding a remainder
-      Ex:
+   The "%" symbol is known as the mod operator and is equivalent to finding a remainder
+       
+       Ex:
          4 % 2 would equal 0
          3 % 2 would equal 1
-     Note: The mod operator does not work properly with negative numbers.
+   Note: The mod operator does not work properly with negative numbers.
        
   <br></br>
    
-    The "!" is used to denote not:
+   The "!" is used to denote not:
       Ex:
          boolean x = true;
          !x would equal false
@@ -101,13 +102,13 @@
    ### Conditional Statements
    Conditional statements allow the computer to make decisions based off data that you decide
    
-    Useful Operands include:
-     == NOTE: This is not the same as the "=" operand
-     <
-     >
-     >=
-     <=
-     !=
+   Useful Operands include:
+   == NOTE: This is not the same as the "=" operand
+   <
+   >
+   >=
+   <=
+   !=
    <br></br>
    
    The easiest way to understand these is using examples so here are a few. The following code snippets contain conditionals we have learned so far
@@ -144,8 +145,8 @@
    ### Compound Conditionals
    Compound Conditionals allow us to create more complicated if statements using && and || operators
    
-    || means OR (as long as one boolean is true, the statement is true)
-    && means AND (all booleans must be true)
+   || means OR (as long as one boolean is true, the statement is true)
+   && means AND (all booleans must be true)
     
    They are executed in order and stop as soon as something as definitive meaning:
    
