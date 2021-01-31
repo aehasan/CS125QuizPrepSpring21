@@ -67,6 +67,36 @@
    <br></br>
    
    ### Modifying Existing Variables
+   *There are multiple ways we can modify variables that have already been initialized:*
+   
+    "=" : Assings a variable on the left side to watever is on the right side. 
+   <br></br>
+   
+    The following perform an operation on the existing variable:
+      +=
+      -=
+      *=
+      /=
+      
+        The following increment the variable by one:
+         ++
+         --
+   <br></br>
+   
+    The "%" symbol is known as the mod operator and is equivalent to finding a remainder
+      Ex:
+         4 % 2 would equal 0
+         3 % 2 would equal 1
+     Note: The mod operator does not work properly with negative numbers.
+       
+  <br></br>
+   
+    The "!" is used to denote not:
+      Ex:
+         boolean x = true;
+         !x would equal false
+   
+
    
    ### Conditional Statements
    
