@@ -15,7 +15,8 @@
       * Floating point values: float and double
       * Boolean values: boolean
       * Characters: char
-   
+   <br></br>
+
       * Why Types?
          * Pros
             * You will be sure what type of data is in every variable
