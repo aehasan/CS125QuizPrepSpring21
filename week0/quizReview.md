@@ -6,7 +6,9 @@
     * Conditional Expressions/Statements
 
 # Conceptual Overview
-###Types
+   <br></br>
+
+### Types
 *All data in java is a combination of the primitive types
    * Integer values: byte, short, int, and long
    * Floating point values: float and double
@@ -18,7 +20,10 @@
      * You will be sure what type of data is in every variable
    * Cons
       * There are rules for variables, they are not flexible
-Break down what will happen line by line.
+      
+      <br></br>
+
+### Conceptual Practice
    * int i;
    <details>
    <summary>Spoiler!</summary>
@@ -44,5 +49,7 @@ Break down what will happen line by line.
       We have declared a variable of type int. However we have set it equal to 7.2. Unlike doubles an int is not capabale of having decimals. So it will be equal to 7.
    </details>
    <br></br>
+   
+   ### Practice Problems
    
    
