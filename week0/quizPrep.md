@@ -67,22 +67,25 @@
    <br></br>
    
    ### Modifying Existing Variables
+   
    *There are multiple ways we can modify variables that have already been initialized:*
    
    "=" : Assings a variable on the left side to watever is on the right side. 
    <br></br>
    
    The following perform an operation on the existing variable:
+   ```
    +=
    -=
    *=
    /=
-      <br></br>
+   ```
    
    The following increment/decrement the variable by one:
-   
+   ```
    ++
-   --   
+   --
+   ```
    <br></br>
    
    The "%" symbol is known as the mod operator and is equivalent to finding a remainder
