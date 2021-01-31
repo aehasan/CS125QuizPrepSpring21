@@ -11,11 +11,12 @@ Break down what will happen line by line.
    <details>
    <summary>Spoiler!</summary>
       Declaring a variable of type int with the name i.
-
    </details>
 
    * i = 0;
+   
       *At this point i has already been declared.
+    <details>
     <summary>Spoiler!</summary>
       Setting a variable of type integer equal to 0.
 
