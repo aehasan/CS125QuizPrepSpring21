@@ -77,8 +77,10 @@
    -=
    *=
    /=
-      
-   The following increment/decrement the variable by one:  
+      <br></br>
+   
+   The following increment/decrement the variable by one:
+   
    ++
    --   
    <br></br>
