@@ -42,6 +42,8 @@
        
          Setting a variable of type integer equal to 0.
    </details>
+      <br></br>
+
    
       * int j = 30
    <details>
@@ -49,6 +51,8 @@
    
          Did you notice the missing semi-colon? The program will crash and burn.
    </details>
+      <br></br>
+
     
       * int oof = 7.2;
    <details>
