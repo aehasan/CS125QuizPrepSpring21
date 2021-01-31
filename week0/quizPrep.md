@@ -142,6 +142,27 @@
  
    
    ### Compound Conditionals
+   Compound Conditionals allow us to create more complected if statements using the && and || operators
+   
+    || means or (one boolean must be true)
+    && means and(all booleans must be true)
+    
+   They are executed in order and stop as soon as something as definitive meaning:
+   
+   ```java
+   boolean one = true;
+   boolean two = false;
+   boolean three = false;
+   
+   /* The compiler looks at one and sees it is true. It moves on to two sees it false along with an && operand. 
+      In which case the compiler never looks at three and moves on.
+   */
+   if ( one && two && three) {
+   }
+   // The compiler looks at one. Sees it is true and we have an || operand. It immediatly executes the if block without looking at two or three.
+   if (one || two || three) {
+   }
+   ```
    
    # Practice Problems
    
