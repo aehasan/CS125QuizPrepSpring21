@@ -26,7 +26,6 @@ Break down what will happen line by line.
    <details>
    <summary>Spoiler!</summary>
       Did you notice the missing semi-colon? The program will crash and burn.
-
    </details>
    
    * int oof = 7.2;
