@@ -29,7 +29,8 @@
       * int i;
    <details>
    <summary>Spoiler!</summary>
-      Declaring a variable of type int with the name i.
+   
+         Declaring a variable of type int with the name i.
    </details>
 
       * i = 0;
@@ -53,7 +54,8 @@
    <details>
    <summary>Spoiler!</summary>
       
-         We have declared a variable of type int. However we have set it equal to 7.2. Unlike doubles an int is not capabale of having decimals. So it will be equal to 7.
+         We have declared a variable of type int. However we have set it equal to 7.2. 
+         Unlike doubles an int is not capabale of having decimals. So it will be equal to 7.
    </details>
    <br></br>
    
