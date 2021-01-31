@@ -1,6 +1,6 @@
 # Week 0 Quiz Prep
 
-**Disclaimer
+** Disclaimer: This document is meant to supplement other studying materials, not replace them. **
 ### Concepts
     * Variables/Types
     * Operations
