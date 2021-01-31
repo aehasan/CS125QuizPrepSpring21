@@ -157,10 +157,20 @@
    /* The compiler looks at one and sees it is true. It moves on to two sees it false along with an && operand. 
       In which case the compiler never looks at three and moves on.
    */
-   if ( one && two && three) {
+   if (one && two && three) {
    }
    // The compiler looks at one. Sees it is true and we have an || operand. It immediatly executes the if block without looking at two or three.
    if (one || two || three) {
+   }
+   ```
+   #### Bonus
+   Mixing up || and && operators are doable, but && operators will take priority to be examined:
+   ```java
+   /* This will print "a"  */
+   if (true || true && false) {
+      System.out.println("a");
+   } else {
+      System.out.println("b");
    }
    ```
    
