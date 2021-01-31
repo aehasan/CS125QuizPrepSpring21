@@ -1,5 +1,6 @@
 # Week 0 Quiz Prep
 
+**Disclaimer
 ### Concepts
     * Variables/Types
     * Operations
