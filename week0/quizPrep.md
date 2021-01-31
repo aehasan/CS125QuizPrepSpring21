@@ -78,7 +78,7 @@
       *=
       /=
       
-        The following increment the variable by one:
+        The following increment/decrement the variable by one:
          ++
          --
    <br></br>
@@ -125,7 +125,7 @@
       //X is not equal to y so we will not execute this code block
     } else if (x > y) {
       //X is greater then y so we will execute this code block
-    } else if(y > 2) {
+    } else if (y > 2) {
       //Since the else if from before was already executed nothing in here will execute
     } else {
       //Since the else if from before was already executed this will never execute
@@ -142,10 +142,10 @@
  
    
    ### Compound Conditionals
-   Compound Conditionals allow us to create more complected if statements using the && and || operators
+   Compound Conditionals allow us to create more complicated if statements using && and || operators
    
-    || means or (one boolean must be true)
-    && means and(all booleans must be true)
+    || means OR (as long as one boolean is true, the statement is true)
+    && means AND (all booleans must be true)
     
    They are executed in order and stop as soon as something as definitive meaning:
    
