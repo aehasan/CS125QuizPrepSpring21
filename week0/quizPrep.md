@@ -99,6 +99,47 @@
 
    
    ### Conditional Statements
+   Conditional statements allow the computer to make decisions based off data that you decide
+   
+    Useful Operands include:
+     == NOTE: This is not the same as the "=" operand
+     <
+     >
+     >=
+     <=
+     !=
+   <br></br>
+   
+   The easiest way to understand these is using examples so here are a few. The following code snippets contain conditionals we have learned so far
+    
+    ```java
+    int x = 4;
+    int y = 3;
+    
+    if (x >= 4) {
+    //We will go in here and execute this code block since x >= 4
+      System.out.println("I am inside this if statement");
+    }
+    
+    if (x == y) {
+      //X is not equal to y so we will not execute this code block
+    } else if (x > y) {
+      //X is greater then y so we will execute this code block
+    } else if(y > 2) {
+      //Since the else if from before was already executed nothing in here will execute
+    } else {
+      //Since the else if from before was already executed this will never execute
+    }
+    
+    if (y != 3) {
+      // y is equal to 3 so this will not execute
+    } else {
+      //since nothing in this chain of if statements executed we will execute the else statement.
+    }
+    ```
+    
+   
+ 
    
    ### Compound Conditionals
    
