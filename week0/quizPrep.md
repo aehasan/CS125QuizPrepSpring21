@@ -32,6 +32,8 @@
    
          Declaring a variable of type int with the name i.
    </details>
+      <br></br>
+
 
       * i = 0;
    
