@@ -82,12 +82,34 @@
    *=
    /=
    ```
+   ```a += 80;``` is the same as ```a = a + 80;```
+   
+   ```java
+   int a = 20;
+   a += 80;
+   System.out.println(a); //100
+  ```
+  ```java
+   int a = 20;
+   a = a + 80;
+   System.out.println(a); //100
+  ```
+  The above two code examples are the same thing. 
+  
+  <br></br>
    
    The following increment/decrement the variable by one:
    ```
    ++
    --
    ```
+   ```java
+   int i = 5; 
+   i--;
+   System.out.println(i); //4 
+  ```
+   
+   
    <br></br>
    
    The "%" symbol is known as the mod operator and is equivalent to finding a remainder
@@ -105,7 +127,7 @@
          !x would equal false
    
 
-   
+   <br></br>
    ### Conditional Statements
    Conditional statements allow the computer to make decisions based off data that you decide
    
