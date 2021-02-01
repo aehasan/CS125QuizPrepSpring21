@@ -1,6 +1,6 @@
 # CS125 Quiz Prep Spring21
 
-## Authors: Chengze Shen, Rohan Khatu, Harsh Deep
+## Contributors: Chengze Shen, Charlotte Lambert, Naina Balepur, Harsh Deep, Rohan Khatu, Ahmed Hasan, Alex Gong
 
 Current finished up to **week 1** 
 
