@@ -210,12 +210,39 @@
    # Practice Problems
    
    ### Warm-up problems
-1. What variable type would you (most likely) use if you want to store **a student's midterm score**?
+1. What variable type would you (most likely) use if you want to store **a student's midterm score**?(Assume percent is a whole number between 0 - 100)
     - what about **GPA**?
 2. Think about how to add **1 point extra credit** to an existing variable named _midtermScore_.
     - Now, think about how to apply a **10%** penalty to an existing variable named _hw1_.
 3. How would you check if _finalScore_ passes an A cutoff of **90**?
-4. How do you know if a student gets **As** on all homework assignments (e.g. _hw1_, _hw2_,...)?
+4. How do you know if a student gets **As** on all homework assignments (e.g. _hw1_, _hw2_,_hw3_)?
+
+<details>
+  <summary>Spoiler!</summary>
+  1. You should store midterm score in an integer since it is a whole number. Since GPA included decimals we should use a double.
+  2. To add 1 point extra credit use
+  
+  ```
+  midtermScore++;
+  ```
+  To apply a 10% penalty use:
+  ```
+  hw1 -= 10;
+  ```
+  3. We need a conditional here:
+  ```java
+  if (finalScore >= 90) {
+  System.out.println("passes");
+  }
+  ```
+  4. We are deciding based off of multiple pieces of data. We need a compound conditional:
+  ```java
+  if (hw1 >= 90 && hw2 >= 90 && hw3 >= 90){
+  System.out.println("All As!!!!");
+  }
+  ```
+  </details>
+
 
 ### Combine them altogether!
 #### You are taking a course taught by Dr. Evil.
