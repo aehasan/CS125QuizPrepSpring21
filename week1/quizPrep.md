@@ -220,7 +220,7 @@
 <details>
   <summary>Spoiler!</summary>
   1. You should store midterm score in an integer since it is a whole number. Since GPA included decimals we should use a double.
-  2. To add 1 point extra credit use
+  2. To add 1 point extra credit use:
   
   ```
   midtermScore++;
