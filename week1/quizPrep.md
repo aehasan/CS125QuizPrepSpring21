@@ -283,7 +283,7 @@ Now Dr. Evil announced that each of your homework weighs **10%** of your total g
     double hwAverge = (hw1 + hw2 + hw3) / 3;
     double totalGrade = 0.3 * hwAverage + 0.3 * midtermScore + 0.4 * finalScore;
   ```
-  Numerically `totalGrade = 0.9015`.
+  Numerically `totalGrade = 0.9055`.
 </details>
 <br></br>
 
