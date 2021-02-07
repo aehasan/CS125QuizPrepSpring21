@@ -38,7 +38,7 @@
     i++;
   }
   
-  for (int i = 0; i < 7; i++) {
+  for (int i = 0; i < 7; i++) { //start, condition, update
     // i is only accesible in here
   }
   
@@ -54,13 +54,20 @@ Continue - Skips to the next iteration
 <br></br>
 ## Functions
 Allow us to use a piece of code over and over again
-  **Important: The code in the function is not executed until it is called**
+
+Function syntax: 
+```java
+returnType functionName (parameterType parameterName) {
+	//return something if needed; 
+}
+```
+  **Important: The code in the function is not executed until it is called**  
  ```java
  void myFunction() {
   System.out.println("isnt java cool");
  }
  ```
- This will do nothing unless you call it like below: 
+ The above code will do nothing unless you call it like below: 
  ```java
  void myFunction() {
   System.out.println("isnt java cool");
