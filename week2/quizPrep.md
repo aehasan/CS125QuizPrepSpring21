@@ -86,7 +86,7 @@ This is good stuff.
  }
  ```
  # Practice Problems
- **I will add solutions after the quiz prep session Sunday.**
+ **I will add solutions after the quiz prep session Monday.**
  
  1. Write a function that prints out all the values of an array that is passed in.
    <br></br>
