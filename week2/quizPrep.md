@@ -19,7 +19,7 @@
   * Once the length of an array has been declared it cannot be changed
   * There are two ways to declare an array in Java. These examples focus on int arrays
    ```java
-   1. int[] myArray = new int[3]; //type[] varName = new type[length]; 
+   1. int[] myArray = new int[3]; //type[] arrayName = new type[length]; 
    2. int[] myArray = {1,2,3}; //initialize and declare in one line 
    ```
   * To access the values in the array you should use the [] operators
