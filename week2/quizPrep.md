@@ -12,7 +12,8 @@
 
 # Conceptual Overview
 (These will be shorter from now on in the interesting of making more practice problems)
-#Arrays
+<br></br>
+## Arrays
   * Arrays in Java are a way of ordering data, ***and they are indexed starting at 0***
   * Once the length of an array has been declared it cannot be changed
   * There are two ways to declare an array in Java. These examples focus on int arrays
@@ -28,7 +29,7 @@
   myArray[7] = 3;  //Error >:(
   ```
   <br></br>
-  # Loops
+  ## Loops
   A couple types of loops we have learned in this cass:
   ```java
   (for int i = 0; i < 7; i++) {
@@ -51,7 +52,7 @@ Dont forget about:
 Break - Stops executing a loop entirely
 Continue - Skips to the next iteration
 
-#Functions
+## Functions
 Allow us to use a piece of code over and over again
   **Important: The code in the function is not executed until it is called**
  ```java
