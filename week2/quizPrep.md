@@ -85,7 +85,7 @@ This is good stuff.
  //everything below here will not be executed
  }
  ```
- #Practice Problems
+ # Practice Problems
  **I will add solutions after the quiz prep session Sunday.**
  
  1. Write a function that prints out all the values of an array that is passed in.
