@@ -51,7 +51,7 @@ for (int i : myArray) {
 Dont forget about:
 Break - Stops executing a loop entirely
 Continue - Skips to the next iteration
-
+<br></br>
 ## Functions
 Allow us to use a piece of code over and over again
   **Important: The code in the function is not executed until it is called**
@@ -86,6 +86,7 @@ This is good stuff.
  //everything below here will not be executed
  }
  ```
+ <br></br>
  # Practice Problems
  **I will add solutions after the quiz prep session Monday.**
  
