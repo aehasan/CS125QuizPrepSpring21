@@ -53,5 +53,53 @@ Continue - Skips to the next iteration
 
 #Functions
 Allow us to use a piece of code over and over again
+  **Important: The code in the function is not executed until it is called**
+ ```java
+ void myFunction() {
+ System.out.println("isnt java cool");
+ }
+ ```
+ This will do nothing. But this:
+ ```java
+ void myFunction() {
+ System.out.println("isnt java cool");
+ }
+ myFunction();
+ ```
+This is good stuff.
+ 
+ Functions can also take in arguments:
+ ```java
+ void myFunction(int a) {
+ System.out.println(a);
+ }
+ ```
+ Functions can also return values.
+ **These are not the same as print statements**
+ When a return is executed we exit the function
+ Ex:
+ ```java
+ int myFunction() {
+ return 7;
+ 
+ //everything below here will not be executed
+ }
+ ```
+ #Practice Problems
+ **I will add solutions after the quiz prep session Sunday.**
+ 
+ 1. Write a function that prints out all the values of an array that is passed in.
+   <br></br>
+2. Write a function that takes in two arrays, and then returns the array that has the largest sum
+  <br></br>
+  
+3. Uh oh. It appears a football player is deflating the footballs again >:(. Write a function that accepts an array of football pressures. If a PSI in the array is below 12.5 return true, otherwise return false.
+   <br></br>
+4. Write a function that accepts an int array, index, and an int value. Then change the index to the value and return the new array.
+  <br></br>
+
+5. **Hard** Write a function that determines if the passed in array has repeated numbers.
+
+  
   
 
