@@ -13,11 +13,14 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
 * [Fall 2020 Quiz Prep](https://github.com/c5shen/CS125Fall20QuizPrep) quite similar to last semesters.
 
 ### Index
-  [**week0**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week1/quizPrep.md)
+  [**week1**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week1/quizPrep.md)
    * Variables/Types
    * Operations
    * Conditional Expressions/Statements
-
+  [**week2**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week1/quizPrep.md)
+   * Arrays
+   * Loops
+   * Functions
 ### Inspiration 
 Some of the material has been inspired from Fall 2020 work from:
 
