@@ -2,7 +2,7 @@
 
 ## Contributors: Chengze Shen, Charlotte Lambert, Naina Balepur, Harsh Deep, Rohan Khatu, Ahmed Hasan, Alex Gong
 
-Current finished up to **week 1** 
+Current finished up to **week 2** 
 
 Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the timings (with zoom links) posted on [the calendar](https://cs125.cs.illinois.edu/calendar/#office-hours)
 
