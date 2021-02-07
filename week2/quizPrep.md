@@ -48,8 +48,8 @@
     System.out.println(i);
  }
 ```
-Dont forget about:
-Break - Stops executing a loop entirely
+Dont forget about:</br>
+Break - Stops executing a loop entirely</br>
 Continue - Skips to the next iteration
 <br></br>
 ## Functions
