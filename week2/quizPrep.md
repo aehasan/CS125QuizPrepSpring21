@@ -25,7 +25,7 @@
   Ex:
   ```java
   int[] myArray = new int[7];
-  myArray[7] = 3;
+  myArray[7] = 3;  //Error >:(
   ```
   <br></br>
   # Loops
