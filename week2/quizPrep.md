@@ -98,7 +98,7 @@ This is good stuff.
 4. Write a function that accepts an int array, index, and an int value. Then change the index to the value and return the new array.
   <br></br>
 
-5. **Hard** Write a function that determines if the passed in array has repeated numbers.
+5. **Hard**: Write a function that determines if the passed in array has repeated numbers. Brute Force is a completely acceptable solution.
 
   
   
