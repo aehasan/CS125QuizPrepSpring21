@@ -15,11 +15,12 @@
 <br></br>
 ## Arrays
   * Arrays in Java are a way of ordering data, ***and they are indexed starting at 0***
+  * The last element of the array is at the index of the array's length - 1, not the array's length 
   * Once the length of an array has been declared it cannot be changed
   * There are two ways to declare an array in Java. These examples focus on int arrays
    ```java
-   1. int[] myArray = new int[length];
-   2. int[] myArray = {1,2,3};
+   1. int[] myArray = new int[3];
+   2. int[] myArray = {1,2,3}; //initialize and declare in one line 
    ```
   * To access the values in the array you should use the [] operators
   * Out of Bounds errors meaning you are accesing an invalid value!!!
