@@ -18,7 +18,7 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
    * Operations
    * Conditional Expressions/Statements
    
-  [**week2**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week1/quizPrep.md)
+  [**week2**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week2/quizPrep.md)
    * Arrays
    * Loops
    * Functions
