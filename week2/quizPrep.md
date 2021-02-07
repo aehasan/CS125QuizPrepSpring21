@@ -45,7 +45,7 @@
   //enhanced for loop
  int[] myArray = new int[7];
  for (int i : myArray) {
-  System.out.println(i);
+    System.out.println(i);
  }
 ```
 Dont forget about:
