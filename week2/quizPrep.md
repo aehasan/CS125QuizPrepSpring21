@@ -33,21 +33,20 @@
   ## Loops
   A couple types of loops we have learned in this cass:
   ```java
-  (for int i = 0; i < 7; i++) {
-  // i is only accesible in here
-  }
-  
   int i = 0;
-  
   while (i < 7) {
-  i++
+    i++;
   }
   
-  //and then we have the enhanced for loop
+  for (int i = 0; i < 7; i++) {
+    // i is only accesible in here
+  }
+  
+  //enhanced for loop
  int[] myArray = new int[7];
-for (int i : myArray) {
+ for (int i : myArray) {
   System.out.println(i);
-}
+ }
 ```
 Dont forget about:
 Break - Stops executing a loop entirely
@@ -58,13 +57,13 @@ Allow us to use a piece of code over and over again
   **Important: The code in the function is not executed until it is called**
  ```java
  void myFunction() {
- System.out.println("isnt java cool");
+  System.out.println("isnt java cool");
  }
  ```
  This will do nothing. But this:
  ```java
  void myFunction() {
- System.out.println("isnt java cool");
+  System.out.println("isnt java cool");
  }
  myFunction();
  ```
@@ -73,7 +72,7 @@ This is good stuff.
  Functions can also take in arguments:
  ```java
  void myFunction(int a) {
- System.out.println(a);
+  System.out.println(a);
  }
  ```
  Functions can also return values.
@@ -82,9 +81,8 @@ This is good stuff.
  Ex:
  ```java
  int myFunction() {
- return 7;
- 
- //everything below here will not be executed
+  return 7;
+  //everything below here will not be executed
  }
  ```
  <br></br>
