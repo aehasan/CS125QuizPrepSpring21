@@ -60,14 +60,13 @@ Allow us to use a piece of code over and over again
   System.out.println("isnt java cool");
  }
  ```
- This will do nothing. But this:
+ This will do nothing unless you call it like below: 
  ```java
  void myFunction() {
   System.out.println("isnt java cool");
  }
  myFunction();
  ```
-This is good stuff.
  
  Functions can also take in arguments:
  ```java
