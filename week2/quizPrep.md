@@ -45,14 +45,15 @@
   }
   
   //enhanced for loop
+  // the variable in the enhanced for loop isn’t the index, it’s the value at that index in the array
  int[] myArray = new int[7];
  for (int i : myArray) {
     System.out.println(i);
  }
 ```
 Dont forget about:</br>
-Break - Stops executing a loop entirely</br>
-Continue - Skips to the next iteration
+```break;``` - Stops executing a loop entirely</br>
+```continue;``` - Skips to the next iteration
 <br></br>
 ## Functions
 Allow us to use a piece of code over and over again
