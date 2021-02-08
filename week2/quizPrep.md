@@ -9,6 +9,8 @@
    * CS Voices
    <br></br>
    
+   You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
+   
 
 # Conceptual Overview
 (These will be shorter from now on in the interesting of making more practice problems)
