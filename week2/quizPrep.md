@@ -102,7 +102,7 @@ returnType functionName (parameterType parameterName) {
  <details>
 	<summary>Spoiler!</summary>
 	
-	```java
+```java
 	void printArray(int[] a) {
 	  for (int i : a) {
            System.out.println(i);
@@ -110,14 +110,14 @@ returnType functionName (parameterType parameterName) {
   
 	}
 	
-	```
+```
 </details>
    <br></br>
 2. Write a function that takes in two arrays, and then returns the array that has the largest sum
  <details>
 	<summary>Spoiler!</summary>
 	
-	```java
+```java
 	int[] returnLargestSum(int[] one, int[] two) {
   	  int sumOne = 0;
   	  int sumTwo = 0;
@@ -136,7 +136,7 @@ returnType functionName (parameterType parameterName) {
   	  }
 	}
 	
-	```
+```
 </details>
 
   <br></br>
