@@ -102,7 +102,7 @@ returnType functionName (parameterType parameterName) {
  <details>
 	<summary>Spoiler!</summary>
 	
-	```Java
+	```java
 	void printArray(int[] a) {
 	  for (int i : a) {
            System.out.println(i);
