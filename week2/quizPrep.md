@@ -145,7 +145,7 @@ returnType functionName (parameterType parameterName) {
  <details>
 	<summary>Spoiler!</summary>
 	
-	```java
+```java
 	boolean bradyDetector(double[] one) {
  	  for (double i : one) {
     	    if (i < 12.5) {
@@ -157,7 +157,7 @@ returnType functionName (parameterType parameterName) {
 	}
 
 	
-	```
+```
 </details>
 
 
@@ -166,7 +166,7 @@ returnType functionName (parameterType parameterName) {
  <details>
 	<summary>Spoiler!</summary>
 	
-	```java
+```java
 	int[] changeValue(int[] myArray, int index, int value) {
   	   myArray[index] = value;
   	   return myArray;
@@ -174,7 +174,7 @@ returnType functionName (parameterType parameterName) {
 
 
 	
-	```
+```
 </details>
 
   <br></br>
@@ -184,7 +184,7 @@ returnType functionName (parameterType parameterName) {
  <details>
 	<summary>Spoiler!</summary>
 	
-	```java
+```java
 	boolean areThereRepeats(int[] passedIn) {
   	   for (int i = 0; i < passedIn.length; i++) {
     		for (int j = 0; j < passedIn.length; j++) {
@@ -201,7 +201,7 @@ returnType functionName (parameterType parameterName) {
 
 
 	
-	```
+```
 </details>
 
   <br></br>
