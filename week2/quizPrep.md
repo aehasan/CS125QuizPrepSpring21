@@ -111,7 +111,7 @@ returnType functionName (parameterType parameterName) {
 	}
 	
 	```
-	</details>
+</details>
    <br></br>
 2. Write a function that takes in two arrays, and then returns the array that has the largest sum
  <details>
@@ -137,7 +137,7 @@ returnType functionName (parameterType parameterName) {
 	}
 	
 	```
-	</details>
+</details>
 
   <br></br>
   
@@ -158,7 +158,7 @@ returnType functionName (parameterType parameterName) {
 
 	
 	```
-	</details>
+</details>
 
 
    <br></br>
@@ -175,7 +175,7 @@ returnType functionName (parameterType parameterName) {
 
 	
 	```
-	</details>
+</details>
 
   <br></br>
 
@@ -202,7 +202,7 @@ returnType functionName (parameterType parameterName) {
 
 	
 	```
-	</details>
+</details>
 
   <br></br>
 
