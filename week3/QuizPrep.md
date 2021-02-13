@@ -12,7 +12,7 @@
    
 
 # Conceptual Overview
-**The Conceptual Overview is much shorter this week. Moving forward there will be little conceptual overview and more conceptual questions. You should review the CS 125 daily lessons**
+**The Conceptual Overview is much shorter this week. Moving forward there will be little conceptual overview and more conceptual questions. You should also review the CS 125 daily lessons to prep for the quiz.**
 <br></br>
 ## Multi-DimensionalArrays
 Multi-Dimensional arrays are a cool new way to store data. They are initialized is followed:
