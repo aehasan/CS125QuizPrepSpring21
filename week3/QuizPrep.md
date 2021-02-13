@@ -49,7 +49,11 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
   String mySecondString = "day";
   String finalString = myString + mySecondString;
   ```
-  What is the string in finalString?
+  Concept Check: What is the string in finalString?<br>
+  ```Java
+  String ope;
+  ```
+  Concept Check: What is the current value of ope?
   
 
  <br></br>
