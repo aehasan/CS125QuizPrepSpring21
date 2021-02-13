@@ -1,5 +1,4 @@
 # Week 2 Quiz Prep
-**This Page is still under construction**
 **Disclaimer: This document is meant to supplement other studying materials, not replace them**<br>
 
 ### Concepts
@@ -13,7 +12,7 @@
    
 
 # Conceptual Overview
-(These will be shorter from now on in the interesting of making more practice problems)
+**The Conceptual Overview is much shorter this week. There is not much content to memorize however it is important you practice**
 <br></br>
 ## Multi-DimensionalArrays
 Multi-Dimensional arrays are a cool new way to store data. They are initialized is followed:
@@ -36,10 +35,17 @@ for (int i = 0; i < myArray.length; i++) {
 ```
 **Concept Check**: Can you trace the for loops in the above code snippet?
 
-In some practice questions later on, we may refer to a 2-d array in rows or columns. However as Geoff said this must be come up with on a problem to problem basis.
+In some practice questions later on, we may refer to a 2-D array in rows or columns. However as Geoff said this must be come up with on a problem to problem basis.
 
   <br></br>
   ## Strings
+  A standard way of string text. Initialized with:
+  ```java
+  String myString = "bruuuh"
+  ```
+  You can also add strings together in java to concatenate them:
+  ```java
+  ```
   
 
  <br></br>
