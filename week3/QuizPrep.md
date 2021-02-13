@@ -14,7 +14,7 @@
 # Conceptual Overview
 **The Conceptual Overview is much shorter this week. Moving forward there will be little conceptual overview and more conceptual questions. You should also review the CS 125 daily lessons to prep for the quiz.**
 <br></br>
-## Multi-DimensionalArrays
+## Multi-Dimensional Arrays
 Multi-Dimensional arrays are a cool new way to store data. They are initialized is followed:
 ```Java
 //you can have as many dimesions as you want
