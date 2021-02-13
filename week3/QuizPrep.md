@@ -58,115 +58,27 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
 
  <br></br>
  # Practice Problems
- **I will add solutions after the quiz prep session Monday.**
+ **I will add solutions after the quiz prep session Monday.**<br>
+
  
- 1. Write a function that prints out all the values of an array that is passed in.
- <details>
-	<summary>Spoiler!</summary>
-	
-```java
-	void printArray(int[] a) {
-	  for (int i : a) {
-           System.out.println(i);
- 	  }
-  
-	}
-	
-```
-</details>
+ 1. Write a function that takes in an array of Strings formatted as "LastName,firstName". if the passed in Array is null return null. Otherwise return a 2-D array. In the first dimension is everyones Last name. In the second dimension is the corresponding first name.
+  <br></br>
+ 2. Write a function that takes in an array of Strings as its first argument, and a string as its second argument. If either argument is null return null. Otherwise determine how many Strings in the array start with the string in the second argument. **You are not allowed to use the contains function**
    <br></br>
-2. Write a function that takes in two arrays, and then returns the array that has the largest sum
- <details>
-	<summary>Spoiler!</summary>
-	
+ 3. Use **Method Overloading** and write two area functions. One where the passed in argument is a radius (area of a circle), and another where you are passed in a base and a height(area of a triangle).
+    <br></br>
+4. Write a function that finds the sum of a 2D int Array. Wait no, thats too easy. Lets add a few rules. In this example we will refer to our 2D array in rows and columns, since it is appropiate here.
 ```java
-	int[] returnLargestSum(int[] one, int[] two) {
-  	  int sumOne = 0;
-  	  int sumTwo = 0;
-  
-  	  for (int i : one) {
-    		sumOne += i;
-  	  }
-  	  for (int i = 0; i < two.length; i++) {
-    		sumTwo += two[i];
- 	  }
-  
-  	  if (sumOne > sumTwo) {
-    		return one;
-  	  } else {
-    	       return two;
-  	  }
-	}
-	
+int[][] myArray = new Int[4][4]
+//Do a bunch of stuff.
+When we map out our 2D array lets say it looks something like this
+{1,2,3,4} [0]
+{2,2,6,4} [1]
+{9,8,2,7} [2]
+{6,3,7,1} [3]
 ```
-</details>
-
-  <br></br>
-  
-3. Uh oh. It appears a football player is deflating the footballs again >:(. Write a function that accepts an array of football pressures. If a PSI in the array is below 12.5 return true, otherwise return false.
- <details>
-	<summary>Spoiler!</summary>
-	
-```java
-	boolean bradyDetector(double[] one) {
- 	  for (double i : one) {
-    	    if (i < 12.5) {
-     	      return true;
-    	    }
-  	  }
-  
-  	return false;
-	}
-
-	
-```
-</details>
-
-
-   <br></br>
-4. Write a function that accepts an int array, index, and an int value. Then change the index to the value and return the new array.
- <details>
-	<summary>Spoiler!</summary>
-	
-```java
-	int[] changeValue(int[] myArray, int index, int value) {
-  	   myArray[index] = value;
-  	   return myArray;
-	}
-
-
-	
-```
-</details>
-
-  <br></br>
-
-5. **Hard**: Write a function that determines if the passed in array has repeated numbers. Brute Force is a completely acceptable solution.
-
- <details>
-	<summary>Spoiler!</summary>
-	
-```java
-	boolean areThereRepeats(int[] passedIn) {
-  	   for (int i = 0; i < passedIn.length; i++) {
-    		for (int j = 0; j < passedIn.length; j++) {
-      		  if (i != j) {
-        
-        	     if (passedIn[i] == passedIn[j]) {
-                        return true;
-       		     }
-      		  }
-    		}
-  	     }
- 	   return false;
-	}
-
-
-	
-```
-</details>
-
-  <br></br>
+The rules are simple. If the first number in the row is larger then the last number we dont sum it. So in the above array Lets say we are at ``myArray[0][someThing]`` Since ``myArray[0][0] < myArray[0][3]`` we go ahead and sum that row. <br>
+5. Write a function that takes in two strings and a char. If any argument is null return null. Then determine which String contains that specific char the most, and return the string. If both strings contain the char the same amount of times, return either string.
 
 
   
