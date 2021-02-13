@@ -78,6 +78,7 @@ When we map out our 2D array lets say it looks something like this
 {6,3,7,1} [3]
 ```
 The rules are simple. If the first number in the row is larger then the last number we dont sum it. So in the above array Lets say we are at ``myArray[0][someThing]`` Since ``myArray[0][0] < myArray[0][3]`` we go ahead and sum that row. <br>
+
 5. Write a function that takes in two strings and a char. If any argument is null return null. Then determine which String contains that specific char the most, and return the string. If both strings contain the char the same amount of times, return either string.
 
 
