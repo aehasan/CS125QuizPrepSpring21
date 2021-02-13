@@ -41,11 +41,15 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
   ## Strings
   A standard way of string text. Initialized with:
   ```java
-  String myString = "bruuuh"
+  String myString = "UofI";
   ```
   You can also add strings together in java to concatenate them:
   ```java
+  String myString = "pay";;
+  String mySecondString = "day";
+  String finalString = myString + mySecondString;
   ```
+  What is the string in finalString?
   
 
  <br></br>
