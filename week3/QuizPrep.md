@@ -27,7 +27,7 @@ We can access a multi-dimensional array as followed:
 int[][] myArray = new int[3][3];
 
 for (int i = 0; i < myArray.length; i++) {
-  for (int j = 0; j < myArray[i].length;j++) {
+  for (int j = 0; j < myArray[i].length; j++) {
     myArray[i][j] = 3;
   }
 }
