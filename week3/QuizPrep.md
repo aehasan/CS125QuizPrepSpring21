@@ -45,7 +45,7 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
   ```
   You can also add strings together in java to concatenate them:
   ```java
-  String myString = "pay";;
+  String myString = "pay";
   String mySecondString = "day";
   String finalString = myString + mySecondString;
   ```
