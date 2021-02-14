@@ -1,4 +1,4 @@
-# Week 2 Quiz Prep
+# Week 3 quiz prep
 **Disclaimer: This document is meant to supplement other studying materials, not replace them**<br>
 
 ### Concepts
