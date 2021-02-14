@@ -51,9 +51,9 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
   ```
   Concept Check: What is the string in finalString?<br>
   ```Java
-  String ope ;
+  String ope = null;
   ```
-  Concept Check: What is the current value of ope?
+  Concept Check: What is this shenanigans?
   
 
  <br></br>
