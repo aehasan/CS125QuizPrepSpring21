@@ -63,7 +63,7 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
  
  1. Write a function that takes in an array of Strings formatted as "LastName,firstName". if the passed in Array is null return null. Otherwise return a 2-D array. In the first dimension is everyones Last name. In the second dimension is the corresponding first name.
   <br></br>
- 2. Write a function that takes in an array of Strings as its first argument, and a string as its second argument. If either argument is null return null. Otherwise determine how many Strings in the array start with the string in the second argument. **You are not allowed to use the contains function**
+ 2. Write a function that takes in an array of Strings as its first argument, and a string as its second argument. If either argument is null return -1. Otherwise determine how many Strings in the array start with the string in the second argument. **You are not allowed to use the contains function**
    <br></br>
  3. Use **Method Overloading** and write two area functions. One where the passed in argument is a radius (area of a circle), and another where you are passed in a base and a height(area of a triangle).
     <br></br>
