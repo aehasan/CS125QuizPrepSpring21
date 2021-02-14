@@ -20,7 +20,7 @@ Multi-Dimensional arrays are a cool new way to store data. They are initialized 
 //you can have as many dimesions as you want
 int[][] myArray = new int[SIZE][SIZE];
 ```
-**Concept Check**:What would happen if we didnt set the array equal to anything?
+**Concept Check**: Can I find the value in a null array?
 
 We can access a multi-dimensional array as followed:
 ```Java
@@ -51,7 +51,7 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
   ```
   Concept Check: What is the string in finalString?<br>
   ```Java
-  String ope;
+  String ope ;
   ```
   Concept Check: What is the current value of ope?
   
