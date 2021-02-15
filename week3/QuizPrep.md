@@ -64,7 +64,7 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
  1. Write a function that takes in an array of Strings formatted as "LastName,firstName". if the passed in Array is null return null. Otherwise return a 2-D array. In the first dimension is everyones Last name. In the second dimension is the corresponding first name. <br>
  Ex:
  ```Java
- input: {"Hasan, Ahmed","Chan, Jackie", "Raja, Anisha","Shen, Chengze","Gong,Alex};
+ input: {"Hasan, Ahmed","Chan, Jackie", "Raja, Anisha","Shen, Chengze","Gong,Alex"};
  output: {"Hasan","Chan","Raja","Shen","Gong"}[0]
         {"Ahmed","Jackie", "Anisha", "Chengze", "Alex"}[1]
  ```
