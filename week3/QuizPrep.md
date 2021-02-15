@@ -61,7 +61,13 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
  **I will add solutions after the quiz prep session Monday.**<br>
 
  
- 1. Write a function that takes in an array of Strings formatted as "LastName,firstName". if the passed in Array is null return null. Otherwise return a 2-D array. In the first dimension is everyones Last name. In the second dimension is the corresponding first name.
+ 1. Write a function that takes in an array of Strings formatted as "LastName,firstName". if the passed in Array is null return null. Otherwise return a 2-D array. In the first dimension is everyones Last name. In the second dimension is the corresponding first name. <br>
+ Ex:
+ ```Java
+ input: {"Hasan, Ahmed","Chan, Jackie", "Raja, Anisha","Shen, Chengze","Gong,Alex};
+ output {"Hasan","Chan","Raja","Shen","Gong"}[0]
+        {"Ahmed","Jackie", "Anisha", "Chengze", "Alex"}[1]
+ ```
   <br></br>
  2. Write a function that takes in an array of Strings as its first argument, and a string as its second argument. If either argument is null return -1. Otherwise determine how many Strings in the array start with the string in the second argument. **You are not allowed to use the contains function**
    <br></br>
