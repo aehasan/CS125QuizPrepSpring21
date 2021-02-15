@@ -65,7 +65,7 @@ In some practice questions later on, we may refer to a 2-D array in rows or colu
  Ex:
  ```Java
  input: {"Hasan, Ahmed","Chan, Jackie", "Raja, Anisha","Shen, Chengze","Gong,Alex};
- output {"Hasan","Chan","Raja","Shen","Gong"}[0]
+ output: {"Hasan","Chan","Raja","Shen","Gong"}[0]
         {"Ahmed","Jackie", "Anisha", "Chengze", "Alex"}[1]
  ```
   <br></br>
