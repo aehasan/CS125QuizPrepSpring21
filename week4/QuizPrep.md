@@ -51,6 +51,7 @@ The midterm/exam actually has the same weight as each quiz, but it has a month w
 6. How can we make a 4d array of doubles with dimensions 10x50x5x2?
 
 7. When to use `.length` and when to use `.length()`?
+8. When to use `==` and when to use `.equals()`? 
 
 ## Reading documentation
 
