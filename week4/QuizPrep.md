@@ -32,6 +32,8 @@ Good news: No weekly voices
 * [Feb 2: Compound Conditional Statements, Arrays, and For Loops](https://cs199emp.netlify.app/dist/s21/2021-02-02.html)
 * [Jan 29: Variables/Datatypes, Operations on Variables, and Conditional Statements and Expressions](https://cs199emp.netlify.app/dist/s21/2021-01-29.html)
 
+### Practice Midterm
+* [Practice Midterm](https://cs125.cs.illinois.edu/quizzes/)
 ## Weightage
 
 The midterm/exam actually has the same weight as each quiz, but it has a month worth of content. Don't stress about it but just treat it like a bigger quiz :)
