@@ -34,9 +34,18 @@ Good news: No weekly voices
 
 ### Practice Midterm
 * [Practice Midterm](https://cs125.cs.illinois.edu/quizzes/)
+
 ## Weightage
 
 The midterm/exam actually has the same weight as each quiz, but it has a month worth of content. It is the same format as the quizzes; it is just cumulative. 
+
+## Concept Overview: Errors 
+* Checkstyle errors: You wrote some code that was not up to our beauty standards.
+* Compiler/syntax errors: You wrote something that Java does not understand. 
+  * ex: system.out.pritnln
+* Runtime errors: Java doesn’t notice any issues at first, but once the code is running, something goes wrong
+  * ex: loops that don’t end, array index out of bounds
+* Testing errors: Your code didn't accomplish its task.
 
 ## Conceptual questions 
 
