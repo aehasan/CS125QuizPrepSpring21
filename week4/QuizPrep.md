@@ -36,7 +36,7 @@ Good news: No weekly voices
 * [Practice Midterm](https://cs125.cs.illinois.edu/quizzes/)
 ## Weightage
 
-The midterm/exam actually has the same weight as each quiz, but it has a month worth of content. Don't stress about it but just treat it like a bigger quiz :)
+The midterm/exam actually has the same weight as each quiz, but it has a month worth of content. It is the same format as the quizzes; it is just cumulative. 
 
 ## Conceptual questions 
 
