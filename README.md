@@ -2,7 +2,7 @@
 
 ## Contributors: Chengze Shen, Charlotte Lambert, Naina Balepur, Harsh Deep, Rohan Khatu, Ahmed Hasan, Alex Gong
 
-Currently finished up to **week 3** 
+Currently finished up to **week 4** 
 
 Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the timings (with zoom links) posted on [the calendar](https://cs125.cs.illinois.edu/calendar/#office-hours)
 
@@ -27,6 +27,10 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
    * Multi-Dimensional arrays
    * More Functions
    * Strings
+   
+   [**week4**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week4/QuizPrep.md)
+   * Midterm Prep
+   
 ### Inspiration 
 Some of the material has been inspired from Fall 2020 work from:
 
