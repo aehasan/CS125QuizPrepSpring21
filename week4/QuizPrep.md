@@ -4,6 +4,10 @@ Bad news: *Midterm* coming that combines all the stuff from this unit.
 
 Good news: No weekly voices
 
+You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
+
+
+
 ### Concepts
 
 * Strings
