@@ -101,7 +101,7 @@ You recognize that each line is a game and for each line, the three fields separ
 ##### 1. Parsing the sales
  * **To solve**: You need to parse the sales by line and store them in an array of String (don't worry about parsing each field within a line yet!). What would you do?
 
-##### 2. Check for errors
+##### 2. Check Gabe's report against Dave's 
 Friendly Dave somehow gives you a cleaner copy of this week's sales. He clearly wants you to check whether there exists errors on the reporting numbers. You dare not ask Gabe why he gives you the unprocessed file while there exists a cleaner one.
 
 You decide to store the cleaner copy in the same format as yours with the follow code. **For your convenience, Dave preserves the order of games so you won't mess up**.
