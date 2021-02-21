@@ -44,7 +44,7 @@ The midterm/exam actually has the same weight as each quiz, but it has a month w
 * Compiler/syntax errors: You wrote something that Java does not understand. 
   * ex: system.out.pritnln
 * Runtime errors: Java doesn’t notice any issues at first, but once the code is running, something goes wrong
-  * ex: loops that don’t end, array index out of bounds
+  * ex: loops that don’t end, array index out of bounds, calling functions on Strings that are null
 * Testing errors: Your code didn't accomplish its task.
 
 ## Conceptual questions 
