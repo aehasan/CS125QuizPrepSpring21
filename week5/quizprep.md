@@ -34,9 +34,11 @@ How do we make getters and setters in 125?
  
  1. You are responsible for what your class stores. All internal components of your class should be private. I will only explain how we interface with it and what we want it to do. Create a class called `` BabyDfa ``. You will make two methods one called ``insert`` which accepts one int argument either 0 or 1 and is void. The other called ``isTrue`` which returns a boolean and takes no arguments. If the last two times we called insert the arguments were a 1 followed by a 0 `` isTrue `` should return true, else return false. That doesnt make much sense so view the example below.
  Ex:
-```
-	BabyDfa mu = new BabyDfa();
+``` Java
+  BabyDfa mu = new BabyDfa();
+  mu.isTrue() //retunrs false
   mu.insert(1);
+  mu.isTrue(); // return false
   mu.insert(0);
   mu.isTrue(); //returns true
   mu.insert(0);
