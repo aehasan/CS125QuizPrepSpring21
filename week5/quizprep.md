@@ -10,7 +10,7 @@
 
 # Conceptual Check
 <br></br>
-
+**Quiz Prep**:Engineer a person class that touches on all these points
 Do you understand the difference between an instance, a class, and an object?
 <br></br>
 What Does a constructor do? Do you understand how they work?
