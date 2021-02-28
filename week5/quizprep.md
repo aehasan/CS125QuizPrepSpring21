@@ -48,7 +48,7 @@ How do we make getters and setters in 125?
   <br></br>
  2. Write a class called `` MPGLeft``. Its constructor should take in two values, the number of gallons of fuel left in a car as a double, and the miles per gallon the car gets also as an int. It should not have a default constructor. Your goal is to create a method `` milesDriven`` that takes in the number of new miles the car has driven and then returns the number of gallons we have left as a double. All internal components of your class should be private.
    <br></br>
- 3. Let us now have some fun with Objects and Imperative Programming. 
+ 3. Let us now have some fun with Objects and Imperative Programming. <br>
     a. Create an object called `` Position ``. It has no constructor and has one public variable called spot. <br>
     b. Make an array of Position objects. For reference this can be done with ``Position[] blah = new Position[LENGTH]``. What is the value at each index?<br>
     c.Initialize each index with a Position instance and set the spot variable with its the Instances index in the array.<br>
