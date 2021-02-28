@@ -24,11 +24,16 @@ If I make two objects of the same class will they operate independently?
 <br></br>
 How do we format our class names?
 <br></br>
+Do you know the difference between a public variable and a private one?
+<br></br>
+How do we make getters and setters in 125?
+<br></br>
+
  # Practice Problems
  **I will add solutions after the quiz prep session Monday.**<br>
 
  
- 1. You are responsible for what your class stores. I will only explain how we interface with it and what we want it to do. Create a class called `` BabyDfa ``. You will make two methods one called ``insert`` which accepts one int argument either 0 or 1 and is void. The other called ``isTrue`` which returns a boolean and takes no arguments. If the last two times we called insert the arguments were a 1 followed by a 0 `` isTrue `` should return true, else return false. That doesnt make much sense so view the example below.
+ 1. You are responsible for what your class stores. All internal components of your class should be private. I will only explain how we interface with it and what we want it to do. Create a class called `` BabyDfa ``. You will make two methods one called ``insert`` which accepts one int argument either 0 or 1 and is void. The other called ``isTrue`` which returns a boolean and takes no arguments. If the last two times we called insert the arguments were a 1 followed by a 0 `` isTrue `` should return true, else return false. That doesnt make much sense so view the example below.
  Ex:
 ```
 	BabyDfa mu = new BabyDfa();
@@ -40,59 +45,11 @@ How do we format our class names?
 ```
 
   <br></br>
- 2. Write a class called `` MPGLeft``. Its constructor should take in two values, the number of gallons of fuel left in a car as a double, and the miles per gallon the car gets also as an int. It should not have a default constructor. Your goal is to create a method `` milesDriven`` that takes in the number of new miles the car has driven and then returns the number of gallons we have left as a double.
+ 2. Write a class called `` MPGLeft``. Its constructor should take in two values, the number of gallons of fuel left in a car as a double, and the miles per gallon the car gets also as an int. It should not have a default constructor. Your goal is to create a method `` milesDriven`` that takes in the number of new miles the car has driven and then returns the number of gallons we have left as a double. All internal components of your class should be private.
    <br></br>
- 3. Use **Method Overloading** and write two area functions. One where the passed in argument is a radius (area of a circle), and another where you are passed in a base and a height(area of a triangle).
- <details>
-	<summary>Spoiler!</summary>
-  
-  ```java
- double area(double radius) {
-  return 3.14 * radius * radius;
-}
-
-double area(double base, double height) {
-  return .5 * base * height;
-  
-}
-  
-  ```
-  </details>
-    <br></br>
-4. Write a function that finds the sum of a 2D int Array. Wait no, thats too easy. Lets add a few rules. In this example we will refer to our 2D array in rows and columns, since it is appropiate here.
-```java
-int[][] myArray = new Int[4][4]
-//Do a bunch of stuff.
-When we map out our 2D array lets say it looks something like this
-{1,2,3,4} [0]
-{2,2,6,4} [1]
-{9,8,2,7} [2]
-{6,3,7,1} [3]
-```
-
-  
-The rules are simple. If the first number in the row is larger then the last number we dont sum it. So in the above array Lets say we are at ``myArray[0][someThing]`` Since ``myArray[0][0] < myArray[0][3]`` we go ahead and sum that row. <br>
-<details>
-	<summary>Spoiler!</summary>
-  
-  ```java
-  int summer(int[][] passedIn) {
-  int sum = 0;
-  for (int i = 0; i < passedIn.length; i++) {
-    for (int j = 0; j < passedIn.length; j++) {
-      if (passedIn[i][0] < passedIn[i][passedIn.length - 1]) {
-        sum += passedIn[i][j];
-      }
-    }
-  }
-  
-  return sum;
-}
-```
- </details>
-
-
-
+ 3. Let us now have some fun with Objects and Imperative Programming. Create an object called `` Position ``. It has no constructor and has one public variable called spot. Done? Make an array of Position objects. For reference this can be done with ``Position[] blah = new Position[LENGTH]``. What is the value at each index? Initialize each index with a Position instance and set the spot variable with its the Instances index in the array.
+<br></br>
+4.
 FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 
   
 
