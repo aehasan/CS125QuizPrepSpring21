@@ -10,7 +10,6 @@
 
 # Conceptual Check
 <br></br>
-## Multi-Dimensional Arrays
 
 Do you understand the difference between an instance, a class, and an object?
 <br></br>
