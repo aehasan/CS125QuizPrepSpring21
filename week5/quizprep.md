@@ -109,22 +109,21 @@ c. Initialize each index with a Position instance and set the spot variable with
 	<summary>Solution!</summary>
   
  ```java
- class MPGLeft {
-  private double gallonsLeft;
-  private double milesPerGallon; //miles/gallon
-  MPGLeft(double setGallonsLeft, double setMilesPerGallon) {
-    gallonsLeft = setGallonsLeft;
-    milesPerGallon = setMilesPerGallon;
-  }
-  double milesDriven(double miles) {
-    //returns gallonLeft
-    gallonsLeft = gallonsLeft - (miles / milesPerGallon); 
-    return gallonsLeft; 
-  }
+public class Position {
+  public int spot; 
 }
-MPGLeft test = new MPGLeft(20, 2);
-System.out.println(test.milesDriven(4)); //18.0
-System.out.println(test.milesDriven(4)); //16.0
+Position[] array = new Position[2];
+//array[0] = new Position();
+//array[0].spot = 0; 
+//array[1] = new Position();
+//array[1].spot = 0; 
+//replace the above lines with a for loop
+for (int i = 0; i < array.length; i++) {
+  array[i] = new Position();
+  array[i].spot = i; 
+}
+System.out.println(array[0].spot); //0
+System.out.println(array[1].spot); //1
  ```
 </details>
 
