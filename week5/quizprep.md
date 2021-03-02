@@ -46,7 +46,6 @@ How do we make getters and setters in 125?
   mu.insert(0);
   mu.isTrue() // returns false
 ```
-<br>
  <details>
 	<summary>Solution!</summary>
 	
