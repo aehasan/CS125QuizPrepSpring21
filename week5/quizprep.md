@@ -100,9 +100,9 @@ System.out.println(test.milesDriven(4)); //18.0
 System.out.println(test.milesDriven(4)); //16.0
  ```
 </details>
-
+<br></br>
  
- 3. Let us now have some fun with Objects and Imperative Programming.(10 minutes) <br>
+3. Let us now have some fun with Objects and Imperative Programming.(10 minutes) <br>
     a. Create an object called `` Position ``. It has no constructor and has one public variable called spot. <br>
     b. Make an array of Position objects. For reference this can be done with ``Position[] blah = new Position[LENGTH]``. What is the value at each index?<br>
     c. Initialize each index with a Position instance and set the spot variable with its the Instances index in the array.<br>
@@ -129,7 +129,8 @@ System.out.println(test.milesDriven(4)); //18.0
 System.out.println(test.milesDriven(4)); //16.0
  ```
 </details>
-4.
+
+
 FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 
   
 
