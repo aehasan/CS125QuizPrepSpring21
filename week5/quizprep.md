@@ -46,15 +46,89 @@ How do we make getters and setters in 125?
   mu.insert(0);
   mu.isTrue() // returns false
 ```
+<br>
+ <details>
+	<summary>Solution!</summary>
+	
+```java
+public class BabyDfa {
+  private int firstVar;
+  private int secondVar;
+  BabyDfa() {
+    firstVar = -1;
+    secondVar = -1;
+  }
+  public void insert(int arg) {
+    firstVar = secondVar;
+    secondVar = arg;
+  }
+ 
+  public boolean isTrue() {
+    if (firstVar == 1 && secondVar == 0) {
+      return true;
+    }
+    return false;
+  }
+}
+```
+</details>
+
+
 
   <br></br>
- 2. Write a class called `` MPGLeft``. Its constructor should take in two values, the number of gallons of fuel left in a car as a double, and the miles per gallon the car gets also as an int. It should not have a default constructor. Your goal is to create a method `` milesDriven`` that takes in the number of new miles the car has driven and then returns the number of gallons we have left as a double. All internal components of your class should be private. (10 mintues)
-   <br></br>
+ 2. Write a class called `` MPGLeft``. Its constructor should take in two values, the number of gallons of fuel left in a car as a double, and the miles per gallon the car gets also as an double. It should not have a default constructor. Your goal is to create a method `` milesDriven`` that takes in the number of new miles the car has driven and then returns the number of gallons we have left as a double. All internal components of your class should be private. (10 mintues)
+   <br>
+ <details>
+	<summary>Solution!</summary>
+	
+ ```java
+ class MPGLeft {
+  private double gallonsLeft;
+  private double milesPerGallon; //miles/gallon
+  MPGLeft(double setGallonsLeft, double setMilesPerGallon) {
+    gallonsLeft = setGallonsLeft;
+    milesPerGallon = setMilesPerGallon;
+  }
+  double milesDriven(double miles) {
+    //returns gallonLeft
+    gallonsLeft = gallonsLeft - (miles / milesPerGallon); 
+    return gallonsLeft; 
+  }
+}
+MPGLeft test = new MPGLeft(20, 2);
+System.out.println(test.milesDriven(4)); //18.0
+System.out.println(test.milesDriven(4)); //16.0
+ ```
+</details>
+
+ 
  3. Let us now have some fun with Objects and Imperative Programming.(10 minutes) <br>
     a. Create an object called `` Position ``. It has no constructor and has one public variable called spot. <br>
     b. Make an array of Position objects. For reference this can be done with ``Position[] blah = new Position[LENGTH]``. What is the value at each index?<br>
-    c.Initialize each index with a Position instance and set the spot variable with its the Instances index in the array.<br>
-<br></br>
+    c. Initialize each index with a Position instance and set the spot variable with its the Instances index in the array.<br>
+<br>
+ <details>
+	<summary>Solution!</summary>
+  
+ ```java
+ class MPGLeft {
+  private double gallonsLeft;
+  private double milesPerGallon; //miles/gallon
+  MPGLeft(double setGallonsLeft, double setMilesPerGallon) {
+    gallonsLeft = setGallonsLeft;
+    milesPerGallon = setMilesPerGallon;
+  }
+  double milesDriven(double miles) {
+    //returns gallonLeft
+    gallonsLeft = gallonsLeft - (miles / milesPerGallon); 
+    return gallonsLeft; 
+  }
+}
+MPGLeft test = new MPGLeft(20, 2);
+System.out.println(test.milesDriven(4)); //18.0
+System.out.println(test.milesDriven(4)); //16.0
+ ```
+</details>
 4.
 FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 
   
