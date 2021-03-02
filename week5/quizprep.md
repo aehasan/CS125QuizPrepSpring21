@@ -38,13 +38,13 @@ How do we make getters and setters in 125?
  Ex:
 ``` Java
   BabyDfa mu = new BabyDfa();
-  mu.isTrue() //return false
+  mu.isTrue(); //return false
   mu.insert(1);
   mu.isTrue(); // return false
   mu.insert(0);
   mu.isTrue(); //returns true
   mu.insert(0);
-  mu.isTrue() // returns false
+  mu.isTrue(); // returns false
 ```
  <details>
 	<summary>Solution!</summary>
