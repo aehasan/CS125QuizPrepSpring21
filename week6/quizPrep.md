@@ -4,12 +4,13 @@
 
 ### Concepts
    * Static
-   * Concepts
-   <details>
-	<summary>Concepts</summary>
-   coding
-   </details>
-   <br></br>
+   * 
+   ```Java
+   class CoolSkills;
+   class Coding extends CoolSkills;
+   class Java extends Coding;
+   class Polymorphism extends Java;
+   ```
    
    You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
    
