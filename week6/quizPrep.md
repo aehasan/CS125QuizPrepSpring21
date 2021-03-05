@@ -5,9 +5,9 @@
 ### Concepts
    * Static
    * Concepts
-   * <details>
-   * coding
-   * </details>
+   <details>
+   coding
+    </details>
    <br></br>
    
    You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
