@@ -3,7 +3,11 @@
 **Disclaimer: This document is meant to supplement other studying materials, not replace them**<br>
 
 ### Concepts
-   * Objects, objects, more objects
+   * Static
+   * Concepts
+   * <details>
+   * coding
+   * </details>
    <br></br>
    
    You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
