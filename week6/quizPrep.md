@@ -24,7 +24,7 @@
 
 Story Time: What happens when we cast? <br>
 <br>
-One day Timothy woke up and went "Wow I want to ~~be misterable~~ challenge myself today" so he decided to learn how to cast objects in Java. Timothy made a couple of classes documented below: <br>
+One day Timothy woke up and went "Wow I want to challenge myself today" so he decided to learn how to cast objects in Java. Timothy made a couple of classes documented below: <br>
 ```java
 public class Shape {
   String type;
