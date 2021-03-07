@@ -19,6 +19,7 @@
 <br>
 
 Story Time: What happens when we cast? <br>
+<br>
 One day Timothy woke up and went "Wow I want to ~~be misterable~~ challenge myself today" so he decided to learn how to cast objects in Java. Timothy made a couple of classes documented below: <br>
 ```java
 public class Shape {
@@ -28,7 +29,7 @@ public class Shape {
 
 public class Triangle {
  int sideOne;
- int sideTwol
+ int sideTwo;
  int sideThree;
 }
 
@@ -46,7 +47,7 @@ Timothy waltz's up to the compiler and reads off this line: <br>
 Wow the compiler thought, what a useless thing to do. But as the compiler he listened anyway. Timothy then tells the compiler to: <br>
 ``waitWhat.squareSideOne``<br>
 **Do you know what will happen**<br>
-The compiler doesnt know what to do. Even though the compiler is holding a square it is told to think of it as a shape. The compiler feels confused and doesnt know what to do. So it spits out some useless jargon. Timothy is confused. He feels forsaken, and goes to bed. That night Timothy had a wonderful dream about a place where CS majors congregate. It was called Stack Overflow. Timothy wakes up and rushes to his computer, and learns some new tricks. Do you understand the following<br>
+The compiler doesnt know what to do. Even though the compiler is holding a square it is told to think of it as a shape. The compiler feels confused and doesnt know what to do. So it spits out some useless jargon. Timothy is confused. He feels forsaken, and goes to bed. That night Timothy had a wonderful dream about a place where CS majors congregate. It was called Stack Overflow. Timothy wakes up and rushes to his computer, and learns some new tricks. Do you understand the following:<br>
 ``waitWhat instanceof Sqare``<br>
 ``Square postCast = (Square) waitWhat``<br>
 Timothy has solved his problem. The End.<br>
