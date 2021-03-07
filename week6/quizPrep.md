@@ -67,7 +67,18 @@ How Does static affect methods?<br>
 
 
 ```Java
-//In Progress
+public class Animal {
+ public String animalSound;
+ public boolean coldBlooded;
+}
+
+public class Zebra extends Animal {
+ public int numberOfStripes;
+}
+
+public class Bear extends Animal {
+ public int numberOfFishEaten;
+}
 ```
 
 FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 
