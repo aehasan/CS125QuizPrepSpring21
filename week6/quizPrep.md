@@ -43,11 +43,15 @@ public class Square extends Shape {
 ```
 Wow Timothy thought. I am so smart. As a CS major Timothy has only one friend, the compiler. Timothy likes the compiler because he does whatever Timothy wants.<br>
 Timothy waltz's up to the compiler and reads off this line: <br>
-``Shape waitWhat = new Square()`` <br>
+``Shape waitWhat = new Square();`` <br>
 **Do you know what is going on here**<br>
+
+
 Wow the compiler thought, what a useless thing to do. But as the compiler he listened anyway. Timothy then tells the compiler to: <br>
-``waitWhat.squareSideOne``<br>
+``waitWhat.squareSideOne;``<br>
 **Do you know what will happen**<br>
+
+
 The compiler doesnt know what to do. Even though the compiler is holding a square it is told to think of it as a shape. The compiler feels confused and doesnt know what to do. So it spits out some useless jargon. Timothy is confused. He feels forsaken, and goes to bed. That night Timothy had a wonderful dream about a place where CS majors congregate. It was called Stack Overflow. Timothy wakes up and rushes to his computer, and learns some new tricks. Do you understand the following:<br>
 ``waitWhat instanceof Sqare``<br>
 ``Square postCast = (Square) waitWhat``<br>
