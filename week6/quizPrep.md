@@ -12,8 +12,8 @@
    ```Java
    class CoolSkills;
    class Coding extends CoolSkills;
-   class Java extends Coding;
-   class Polymorphism extends Java;
+   class LearningJava extends Coding;
+   class Polymorphism extends LearningJava;
    ```
    
    You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
