@@ -27,13 +27,13 @@ public class Shape {
   double area;
 }
 
-public class Triangle {
+public class Triangle extends Shape {
  int sideOne;
  int sideTwo;
  int sideThree;
 }
 
-public class Square {
+public class Square extends Shape {
  int squareSideOne;
  int squareSideTwo;
  int squareSideThree;
