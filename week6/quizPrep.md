@@ -4,7 +4,8 @@
 
 ### Concepts
    * Static
-   * 
+   * Inheritance 
+   * Polymorphism 
    ```Java
    class CoolSkills;
    class Coding extends CoolSkills;
