@@ -51,6 +51,7 @@ The compiler doesnt know what to do. Even though the compiler is holding a squar
 ``waitWhat instanceof Sqare``<br>
 ``Square postCast = (Square) waitWhat``<br>
 Timothy has solved his problem. The End.<br>
+<br>
 **Disclaimer: The opinions displayed in this story may not be the opinions of the entirety of the CS 125 Course Staff, or that of the writer, and are simply there as very bad comedy.**
 
 FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 
