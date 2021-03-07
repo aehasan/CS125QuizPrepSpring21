@@ -52,7 +52,21 @@ The compiler doesnt know what to do. Even though the compiler is holding a squar
 ``Square postCast = (Square) waitWhat``<br>
 Timothy has solved his problem. The End.<br>
 <br>
-**Disclaimer: The opinions displayed in this story may not be the opinions of the entirety of the CS 125 Course Staff, or that of the writer, and are simply there as very bad comedy.**
+**Disclaimer: The opinions displayed in this story may not be the opinions of the entirety of the CS 125 Course Staff, or that of the writer, and are simply there as very bad comedy.** <br>
+<br>
+Do you also understand Up-Casting?<br>
+How Does static affect variables?<br>
+How Does static affect methods?<br>
+**Quiz Prep: Design a class that uses both static methods and variables**
+
+# Practice Problems
+<br>
+1. Create a class called ``WowThatWasAGoodStory`` with one static int variable called ``goodRating``. Create one static method called ``provideGoodRating`` that only accepts positive integers(Duh) and returns the changed int. Do you see why both need to be static? <br>
+2. There was a lot of confusion on the IsEquals homework so lets do a similar problem. Create a class called ``Address`` that has four variables all should be private. ``Int: apt/house number``, ``String: Street``, ``String: Town``, ``Int: ZipCode``. Then override the isEquals method following standard conventions. Do you see why you can access private variables inside this method? <br>
+3. Create a static method in a new ``Utility`` class called ``isItInTheZoo``, that returns a String. We have defined a general ``Animal`` class and some more specific animals that extend it below. Feel free to copy this into the playground. ``isItInTheZoo`` accepts an object and returns ``you goofed`` if you pass in anything other then an animal. If you passed in an Animal class and only an Animal class return ``Too General``. If you passed in any of the more specific Animals return the name of the Animal.
+```Java
+//In Progress
+```
 
 FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 
   
