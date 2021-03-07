@@ -5,7 +5,10 @@
 ### Concepts
    * Static
    * Inheritance 
+     * Overriding  
    * Polymorphism 
+     * Upcasting (implicit)
+     * Downcasting (explicit) (use instanceof operator
    ```Java
    class CoolSkills;
    class Coding extends CoolSkills;
@@ -53,8 +56,8 @@ Wow the compiler thought, what a useless thing to do. But as the compiler he lis
 
 
 The compiler doesnt know what to do. Even though the compiler is holding a square it is told to think of it as a shape. The compiler feels confused and doesnt know what to do. So it spits out some useless jargon. Timothy is confused. He feels forsaken, and goes to bed. That night Timothy had a wonderful dream about a place where CS majors congregate. It was called Stack Overflow. Timothy wakes up and rushes to his computer, and learns some new tricks. Do you understand the following:<br>
-``waitWhat instanceof Sqare``<br>
-``Square postCast = (Square) waitWhat``<br>
+``waitWhat instanceof Square;``<br>
+``Square postCast = (Square) waitWhat;``<br>
 Timothy has solved his problem. The End.<br>
 <br>
 **Disclaimer: The opinions displayed in this story may not be the opinions of the entirety of the CS 125 Course Staff, or that of the writer, and are simply there as very bad comedy.** <br>
