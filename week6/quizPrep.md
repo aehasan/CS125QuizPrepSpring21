@@ -8,7 +8,7 @@
      * Overriding  
    * Polymorphism 
      * Upcasting (implicit)
-     * Downcasting (explicit) (use instanceof operator
+     * Downcasting (explicit) (use instanceof operator)
    ```Java
    class CoolSkills;
    class Coding extends CoolSkills;
