@@ -38,13 +38,13 @@ class Basic() {
   //At this point we have created an array of what? Have we created ANY person objects.
   
   for(int i = 0; i < example.length; i++) {
-    example[i] = new Basic() 
+    example[i] = new Basic();
   }
   //How many objects are in example?
   //what if i did:
   Basic holder = new Basic();
   for(int i = 0; i < example.length; i++) {
-    example[i] = holder
+    example[i] = holder;
   }
 }
 ```
