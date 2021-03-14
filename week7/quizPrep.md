@@ -34,7 +34,7 @@ class Basic() {
   void incrementI() {
     i++;
   }
-  Basic example = new Basic[4]
+  Basic example = new Basic[4];
   //At this point we have created an array of what? Have we created ANY person objects.
   
   for(int i = 0; i < example.length; i++) {
