@@ -52,7 +52,7 @@ Do you understand the idea of making shallow and deep copies of the array shown 
 **Quiz Prep: Design a class that uses both static methods and variables**
 
 # Practice Problems
-<br>
+<br></br>
 1. Here is a book class: <br>
 ```java
 public class Book {
