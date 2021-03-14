@@ -5,8 +5,6 @@
 ### Concepts
    * Everything covered last week has a high likelihood of being on an exam
    * References and Polymorphism
-   * Memory Management 
-   * Imports and Libraries 
    
    You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
    
