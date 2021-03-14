@@ -13,7 +13,7 @@
 <br>
 
 
-What is the difference between reference equality and object equality. How are they called.?<br>
+What is the difference between reference equality and object equality. How are they called?<br>
 When a function takes in an object what is it really taking in?<br>
 ```java
 void one(FillerObject o) {
