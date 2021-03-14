@@ -57,9 +57,9 @@ public class Book {
   //make sure these are private on the exam 
   public String author;
   public String title;
-  public Int pageNumbers;
+  public int pageNumbers;
   //constructor is obviously public
-  public Book(setAuthor, setTitle, setPageNumbers) {
+  public Book(String setAuthor, String setTitle, int setPageNumbers) {
     author = setAuthor;
     title = setTitle;
     pageNumbers = setPageNumbers;
