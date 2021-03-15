@@ -74,7 +74,7 @@ Then try out:<br>
 ```
 Pet j = new Dog();
 j.getType();
-j.Bark();
+j.noise();
 ```
 FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 
   
