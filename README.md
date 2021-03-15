@@ -30,6 +30,21 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
    
    [**week4**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week4/QuizPrep.md)
    * Midterm Prep
+
+   [**week5**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week5/quizprep.md)
+   * Objects, objects, more objects 
+   
+   [**week6**]()
+   * Static
+   * Inheritance 
+     * Overriding  
+   * Polymorphism 
+     * Upcasting (implicit)
+     * Downcasting (explicit) (use instanceof operator)
+     
+   [**week7**]()
+   * Everything covered last week has a high likelihood of being on an exam
+   * References and Polymorphism
    
 ### Inspiration 
 Some of the material has been inspired from Fall 2020 work from:
