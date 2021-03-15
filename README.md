@@ -34,7 +34,7 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
    [**week5**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week5/quizprep.md)
    * Objects, objects, more objects 
    
-   [**week6**]()
+   [**week6**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week6/quizPrep.md)
    * Static
    * Inheritance 
      * Overriding  
@@ -42,7 +42,7 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
      * Upcasting (implicit)
      * Downcasting (explicit) (use instanceof operator)
      
-   [**week7**]()
+   [**week7**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week7/quizPrep.md)
    * Everything covered last week has a high likelihood of being on an exam
    * References and Polymorphism
    
