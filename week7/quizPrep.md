@@ -32,18 +32,19 @@ class Basic() {
   void incrementI() {
     i++;
   }
-  Basic example = new Basic[4];
-  //At this point we have created an array of what? Have we created ANY person objects.
+}
+
+Basic[] example = new Basic[4];
+//At this point we have created an array of what? Have we created ANY person objects.
   
-  for(int i = 0; i < example.length; i++) {
-    example[i] = new Basic();
-  }
-  //How many objects are in example?
-  //what if i did:
-  Basic holder = new Basic();
-  for(int i = 0; i < example.length; i++) {
-    example[i] = holder;
-  }
+for(int i = 0; i < example.length; i++) {
+  example[i] = new Basic();
+}
+//How many objects are in example?
+//what if i did:
+Basic holder = new Basic();
+for(int i = 0; i < example.length; i++) {
+  example[i] = holder;
 }
 ```
 Do you understand the idea of making shallow and deep copies of the array shown above?
