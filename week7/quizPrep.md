@@ -21,7 +21,7 @@ void one(FillerObject o) {
 }
 
 
-void one(Int i) {
+void one(int i) {
   i++;
 }
 ```
