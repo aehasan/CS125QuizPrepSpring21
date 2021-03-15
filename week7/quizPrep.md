@@ -77,7 +77,45 @@ Pet j = new Dog();
 j.getType();
 j.noise();
 ```
-FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 
+FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 <br>
+For Quiz Prep: <br>
+```java
+public class Book {
+  //make sure these are private on the exam 
+  public String author;
+  public String title;
+  public int pageNumbers;
+  //constructor is obviously public
+  public Book(String setAuthor, String setTitle, int setPageNumbers) {
+    author = setAuthor;
+    title = setTitle;
+    pageNumbers = setPageNumbers;
+  }
+  
+  public static Book copy(Book o) {
+    Book toReturn = new Book(o.title, o.author, o.pageNumbers);
+    return toReturn;
+  }
+}
+
+public class Fiction extends Book {
+  public int fictionLevel;
+  Fiction(String setAuthor, String setTitle, int setPageNumbers, int setFictionLevel) {
+    super(setAuthor, setTitle, setPageNumbers);
+    fictionLevel = setFictionLevel;
+  }
+}
+Book[] bookShelf = new Book[10];
+
+Book book = new Book("adsf", "Ahmed", 55);
+for (int i = 0; i < bookShelf.length; i++) {
+  bookShelf[i] = Book.copy(book);
+}
+
+System.out.println(bookShelf[0].title);
+bookShelf[1].title = "sike";
+System.out.println(bookShelf[0].title);
+```
   
 
 
