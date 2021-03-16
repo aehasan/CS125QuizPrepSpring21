@@ -68,17 +68,8 @@ public class Book {
 }
 ```
 Create a class that extends the book class in any way you see fit. Have a bookshelf that stores an array of Book objects. Downcast the book object to unlock the unique properties of the class you created. <br></br>
-2. Define a copy constructor for the Book object above. Your copy constructor should take in one book object. Create an array of only book objects and use it to create a new array with deep copies. <br></br>
-3. Create a Pet class with a method ``getType`` that returns the String "Pet". The pet class also has a method ``noise`` that returns a string, in this case ``null``. Create a class ``Dog`` that extends ``Pet``. ``Dog`` overrides ``getType`` and returns the String ``Dog``. Override `noise` to return ``Woof``. <br>
+<details>
 
-Then try out:<br>
-```
-Pet j = new Dog();
-j.getType();
-j.noise();
-```
-FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 <br>
-For Quiz Prep: <br>
 ```java
 public class Book {
   //make sure these are private on the exam 
@@ -105,18 +96,84 @@ public class Fiction extends Book {
     fictionLevel = setFictionLevel;
   }
 }
-Book[] bookShelf = new Book[10];
+```
 
-Book book = new Book("adsf", "Ahmed", 55);
-for (int i = 0; i < bookShelf.length; i++) {
-  bookShelf[i] = Book.copy(book);
+
+</details>
+2. Define a copy constructor for the Book object above. Your copy constructor should take in one book object. Create an array of only book objects and use it to create a new array with deep copies. <br></br>
+ <details>
+
+```java
+public class Book {
+  //make sure these are private on the exam 
+  public String author;
+  public String title;
+  public int pageNumbers;
+  //constructor is obviously public
+  public Book(String setAuthor, String setTitle, int setPageNumbers) {
+    author = setAuthor;
+    title = setTitle;
+    pageNumbers = setPageNumbers;
+  }
+  
+  public static Book copy(Book o) {
+    Book toReturn = new Book(o.title, o.author, o.pageNumbers);
+    return toReturn;
+  }
 }
 
-System.out.println(bookShelf[0].title);
-bookShelf[1].title = "sike";
-System.out.println(bookShelf[0].title);
+public class Fiction extends Book {
+  public int fictionLevel;
+  Fiction(String setAuthor, String setTitle, int setPageNumbers, int setFictionLevel) {
+    super(setAuthor, setTitle, setPageNumbers);
+    fictionLevel = setFictionLevel;
+  }
+}
 ```
+
+
+</details>
+3. Create a Pet class with a method ``getType`` that returns the String "Pet". The pet class also has a method ``noise`` that returns a string, in this case ``null``. Create a class ``Dog`` that extends ``Pet``. ``Dog`` overrides ``getType`` and returns the String ``Dog``. Override `noise` to return ``Woof``. <br>
+
+
+
+Then try out:<br>
+```
+Pet j = new Dog();
+j.getType();
+j.noise();
+```
+
+<details>
+
+```java
+public class Pet {
+
+  public String noise() {
+    return null;
+  }
+  public String getType() {
+    return "Pet";
+  }
   
+  
+}
+
+public class Dog extends Pet {
+
+  public String getType() {
+    return "Dog";
+  }
+  
+  public String bark() {
+    return "Bark";
+  }
+}
+
+```
+
+</details>
+FeedBack: https://forms.gle/yJLaYFaBtthPf3AP6 <br>
 
 
 
