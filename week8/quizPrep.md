@@ -48,7 +48,7 @@ Example:
 detector("CSCSCS","CS",3) \\return true
 detector("","CS",0) \\return true
 detector("CS","CS",2) \\return false
-``
+```
 
 
 
