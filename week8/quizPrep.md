@@ -35,6 +35,7 @@ Kleenify("CS", 0) \\ prints out nothing
 Kleenify("CS", 1) \\ Prints out CS
 Kleenify("CS", 2) \\ prints out CSCS
 ```
+A Kleene star is actually an important topic in computational theory. If this interests you [Click Here](https://en.wikipedia.org/wiki/Kleene_star#:~:text=In%20mathematical%20logic%20and%20computer,as%20the%20free%20monoid%20construction.)
 
 2. Create a class called ``ArraySum`` that implements comparable. The ArraySum constuctor takes in an Int Array which you should ``assert`` is not ``null``. It should implement a method ``sum`` that sums the stored array. You should implement the ``compareTo`` method based off of which class has the larger sum. <br>
 
