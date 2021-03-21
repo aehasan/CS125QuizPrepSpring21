@@ -41,7 +41,7 @@ A Kleene star is actually an important topic in computational theory. If this in
 3. Shorter: Can you create a Utility class that has a class method ``isGreaterThan``. This takes in two objects that implement ``Comparabl`` and returns the larger one. <br>
 
 
-4. Create two classes an abstract ``Pet`` class and a non-abstract ``Shape`` class. Use your imagination and think about some methods ``Pet`` should have. Shape should have a constuctor that takes in an ``Int`` which is the number of sides. The method ``numberOfSides`` should return the number of sides. It should also have an ``abstract`` method called shapeType. Are you aware of what this means? <br>
+4. Create two classes an abstract ``Pet`` class. Use your imagination and think about some methods ``Pet`` should hav,sprinkling in some abstract methods. What behavior do you notice?  <br>
 5. **Bonus**: We will have a little bit more fun with Kleene stars. Create an interface called ``KleeneStarDetector`` that has one method ``detector``. Create a class that implements this interface. ``detector`` takes in three arguments, the final string, the original string, and the amount of times it was repeated. If the original string repeated x times equals the first argument return true, else return false.
 ```
 Example:
