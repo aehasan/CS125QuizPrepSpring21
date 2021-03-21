@@ -4,7 +4,7 @@
 ### Concepts
    * Interfaces
    * Abstract Classes
-   * Exams are cumulative. You should have a strong understanding of past material. If not, ask for help!
+   * Exams are cumulative. You should have a strong understanding of past material(References, Polymorphism, etc.). If not, ask for help!
    
    You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
    
