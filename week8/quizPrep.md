@@ -30,11 +30,11 @@ What are abstract methods? <br>
 
 # Practice Problems
 <br></br>
-1. Create an interface called ``KleeneStar``. The ``KleeneStar`` interface has one method called ``Kleenify`` that takes in one string and an ``int``. Create a new class of your choice that implements this interface. Assert the passed in string is not null. Your Kleene star function should print out the string the amount of times as the int. See the example below:
+1. Create an interface called ``KleeneStar``. The ``KleeneStar`` interface has one method called ``kleenify`` that takes in one string and an ``int``. Create a new class of your choice that implements this interface. Assert the passed in string is not null. Your Kleene star function should print out the string the amount of times as the int. See the example below:
 ```
-Kleenify("CS", 0) \\ prints out nothing
-Kleenify("CS", 1) \\ Prints out CS
-Kleenify("CS", 2) \\ prints out CSCS
+kleenify("CS", 0) \\ prints out nothing
+kleenify("CS", 1) \\ Prints out CS
+kleenify("CS", 2) \\ prints out CSCS
 ```
 A Kleene star is actually an important topic in computational theory. If this interests you [Click Here](https://en.wikipedia.org/wiki/Kleene_star#:~:text=In%20mathematical%20logic%20and%20computer,as%20the%20free%20monoid%20construction.)
 
