@@ -6,7 +6,7 @@
    * Abstract Classes
    * Exams are cumulative. You should have a strong understanding of past material(References, Polymorphism, etc.). If not, ask for help!
    
-   If you need more practice, go to the EMP site: https://cs199emp.netlify.app/
+   If you need more practice with interfaces and abstract classes & methods, go to the EMP site: https://cs199emp.netlify.app/dist/s21/2021-03-19.html#1
    
    You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
 
