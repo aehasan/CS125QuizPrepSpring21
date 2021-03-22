@@ -45,6 +45,10 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
    [**week7**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week7/quizPrep.md)
    * Everything covered last week has a high likelihood of being on an exam
    * References and Polymorphism
+
+   [**week8**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week8/quizPrep.md)
+   * Interfaces
+   * Abstract Classes
    
 ### Inspiration 
 Some of the material has been inspired from Fall 2020 work from:
