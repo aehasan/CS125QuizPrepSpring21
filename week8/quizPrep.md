@@ -38,7 +38,7 @@ kleenify("CS", 2) \\ prints out CSCS
 ```
 A Kleene star is actually an important topic in computational theory. If this interests you [Click Here](https://en.wikipedia.org/wiki/Kleene_star#:~:text=In%20mathematical%20logic%20and%20computer,as%20the%20free%20monoid%20construction.)
 
-2. Create a class called ``ArraySum`` that implements comparable. The ``ArraySum`` constuctor takes in an Int Array which you should ``assert`` is not ``null``. It should implement a method ``sum`` that sums the stored array. You should implement the ``compareTo`` method based off of which array has the larger sum. <br>
+2. Create a class called ``ArraySum`` that implements ``Comparable``. The ``ArraySum`` constuctor takes in an Int Array which you should ``assert`` is not ``null``. It should implement a method ``sum`` that sums the stored array. You should implement the ``compareTo`` method based off of which array has the larger sum. <br>
 3. Shorter: Can you create a ``Utility`` class that has a class method ``isGreaterThan``. This takes in two objects that implement ``Comparable`` and returns the larger one. <br>
 
 
