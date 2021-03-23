@@ -147,6 +147,34 @@ detector("CSCSCS","CS",3) \\return true
 detector("","CS",0) \\return true
 detector("CS","CS",2) \\return false
 ```
+<details>
+  
+  ```java
+  public class Off implements KleeneStarDetector {
+  public boolean detector(String mutated, String original, int multiplier) {
+    assert mutated != null;
+    assert original != null;
+    
+    int originalLength = original.length();
+    int newLength = mutated.length();
+    if (newLength != originalLength * multiplier) {
+      return false;
+    }
+    int currentStart = 0;
+    int currentEnd = original.length();
+    for (int i = 0; i < multiplier; i++) {
+      System.out.println(mutated.substring(currentStart, currentEnd));
+      if (!mutated.substring(currentStart, currentEnd).equals(original)) {
+        return false;
+      }
+      currentStart += original.length();
+      currentEnd += original.length();
+    }
+    return true;
+  }
+}
+```
+ </details>
 
 
 
