@@ -30,6 +30,7 @@ What are abstract methods? <br>
 
 # Practice Problems
 <br></br>
+
 1. Create an interface called ``KleeneStar``. The ``KleeneStar`` interface has one method called ``kleenify`` that takes in one string and an ``int``. Create a new class of your choice that implements this interface. Assert the passed in string is not null. Your Kleene star function should print out the string the amount of times as the int. See the example below:
 ```
 kleenify("CS", 0) \\ prints out nothing
@@ -98,6 +99,7 @@ public class ArraySum implements Comparable {
 ```
 
 </details>
+
 3. Shorter: Can you create a ``Utility`` class that has a class method ``isGreaterThan``. This takes in two objects that implement ``Comparable`` and returns the larger one. <br>
 <details>
   
@@ -137,6 +139,7 @@ public class Cat extends Pet {
 }
 ```
 </details>
+
 5. **Bonus**: We will have a little bit more fun with Kleene stars. Create an interface called ``KleeneStarDetector`` that has one method ``detector``. Create a class that implements this interface. ``detector`` takes in three arguments, the final string, the original string, and the amount of times it was repeated. If the original string repeated x times equals the first argument return true, else return false.
 ```
 Example:
