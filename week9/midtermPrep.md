@@ -247,7 +247,7 @@ We can then say:
 1. Override the standard .equals() method for the Dog class above. A dog is equal if it has the same name, age, and treat level.
 2. Implement the compareTo() method for the Dog class above using age to determine who is larger or smaller.
 3. Make a copy() function for the Dog class above that returns an array of deep copies.
-4. If time allows: Pratice Exam.
+4. If time allows: Practice Exam.
 
 
 Feedback: https://forms.gle/yJLaYFaBtthPf3AP6 <br>
