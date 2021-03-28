@@ -145,6 +145,7 @@ for (int i = 0; i < myArray.size(); i++) {
 }
 ```
 <img width="778" alt="Screen Shot 2021-03-28 at 12 28 27 AM" src="https://user-images.githubusercontent.com/59402383/112743397-89682880-8f5c-11eb-9714-b9f294e8222c.png">
+
 ### Static (AKA Class Methods)
 Static allows us to change variables across all instances of a class. Play around with the example below:
 ```Java
