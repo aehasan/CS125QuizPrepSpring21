@@ -95,7 +95,7 @@ Public class Pet {
 public class Dog extends Pet {
   public int treatLevel;
   Dog(String name, int age, int treat) {
-    super(name, age)
+    super(name, age);
     treatLevel = treat;
   
   }
