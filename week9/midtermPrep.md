@@ -22,16 +22,16 @@ Simple enough we are pros at this
 public class Pet {
   protected String petName;
   protected int age;
-  Pet(String a, int b) {
-    petName = a;
-    age = b;
+  Pet(String setPetName, int setAge) {
+    petName = setPetName;
+    age = setAge;
   }
   
   public int getAge() {
     return age;
   }
   
-  public String getName() {
+  public String getPetName() {
     return petName;
   }
   public boolean whosBigger(Pet a) {
@@ -44,9 +44,9 @@ public class Pet {
 
 public class Dog extends Pet {
   public int treatLevel;
-  Dog(String name, int age, int treat) {
-    super(name, age);
-    treatLevel = treat;
+  Dog(String setPetName, int setAge, int setTreatLevel) {
+    super(setPetName, setAge);
+    treatLevel = setTreatLevel;
   
   }
   
@@ -72,16 +72,16 @@ Lets continue with the example above I will copy it below:
 public class Pet {
   protected String petName;
   protected int age;
-  Pet(String a, int b) {
-    petName = a;
-    age = b;
+  Pet(String setPetName, int setAge) {
+    petName = setPetName;
+    age = setAge;
   }
   
   public int getAge() {
     return age;
   }
   
-  public String getName() {
+  public String getPetName() {
     return petName;
   }
   public boolean whosBigger(Pet a) {
@@ -94,9 +94,9 @@ public class Pet {
 
 public class Dog extends Pet {
   public int treatLevel;
-  Dog(String name, int age, int treat) {
-    super(name, age);
-    treatLevel = treat;
+  Dog(String setPetName, int setAge, int setTreatLevel) {
+    super(setPetName, setAge);
+    treatLevel = setTreatLevel;
   
   }
   
