@@ -180,7 +180,7 @@ Deep Copies: References point to completely distinct Objects. Changing one doest
 Shallow Copies: References point to the same Object. Changing One changes the other. <br>
 ```Java
 Dog[] myArray = new Dog[4];
-for (int i = 0; i < myArray.size(); i++) {
+for (int i = 0; i < myArray.length; i++) {
   myArray[i] = new Dog("Travis", 3, 3);
 }
 ```
@@ -190,7 +190,7 @@ What about: <br>
 ```Java
 Dog[] myArray = new Dog[4];
 Dog hm = new Dog("Sam", 3, 3);
-for (int i = 0; i < myArray.size(); i++) {
+for (int i = 0; i < myArray.length; i++) {
   myArray[i] = hm;
 }
 ```
