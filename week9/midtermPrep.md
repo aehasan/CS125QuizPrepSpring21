@@ -22,9 +22,9 @@ Simple enough we are pros at this
 Public class Pet {
   protected String petName;
   protected int age;
-  Pet(String a, int, b) {
+  Pet(String a, int b) {
     petName = a;
-    b = age;
+    age = b;
   }
   
   public int getAge() {
@@ -45,8 +45,8 @@ Public class Pet {
 public class Dog extends Pet {
   public int treatLevel;
   Dog(String name, int age, int treat) {
-    super(a, b)
-    treatLevel = c;
+    super(name, age);
+    treatLevel = treat;
   
   }
   
@@ -71,9 +71,9 @@ Lets continue with the example above I will copy it below:
 Public class Pet {
   protected String petName;
   protected int age;
-  Pet(String a, int, b) {
+  Pet(String a, int b) {
     petName = a;
-    b = age;
+    age = b;
   }
   
   public int getAge() {
@@ -95,8 +95,8 @@ Public class Pet {
 public class Dog extends Pet {
   public int treatLevel;
   Dog(String name, int age, int treat) {
-    super(a, b)
-    treatLevel = c;
+    super(name, age)
+    treatLevel = treat;
   
   }
    public boolean whosBigger(Dog a) {
@@ -126,7 +126,7 @@ Run through a couple examples of this in the java Compiler. Do you really unders
 
 ### References/ Copying
 Objects in Java are **only** made when you use the **new** keyword. <br>
-Deep Cpoies: References point to completely distinct Objects. Changing one doest change the other. <br>
+Deep Copies: References point to completely distinct Objects. Changing one doest change the other. <br>
 Shallow Copies: References point to the same Object. Changing One changes the other. <br>
 ```Java
 Dog[] myArray = new Dog[4];
@@ -149,7 +149,7 @@ for (int i = 0; i < myArray.size(); i++) {
 ### Static (AKA Class Methods)
 Static allows us to change variables across all instances of a class. Play around with the example below:
 ```Java
-public class Utitity {
+public class Utility {
   public static int j = 0;
   public static void counter() {
     j++;
