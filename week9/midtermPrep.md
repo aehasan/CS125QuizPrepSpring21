@@ -84,6 +84,7 @@ Public class Pet {
     return name;
   }
   public boolean whosBigger(Pet a) {
+    System.out.println("Im in Cat");
     if (age < a.age) {
       return false;
     }
@@ -99,6 +100,7 @@ public class Dog extends Pet {
   
   }
    public boolean whosBigger(Dog a) {
+    System.out.println("Im in Dog");
     if (age < a.age) {
       return false;
     }
@@ -122,6 +124,27 @@ Run through a couple examples of this in the java Compiler. Do you really unders
 1. Can you repeat the process above for Up-Casting
 2. Test this one out in the compiler to be ultra-certain. Which version of ``whosBigger()`` do we have? The ``Dog`` version or the ``Pet`` version? Do you see why?
 
+### References/ Copying
+Objects in Java are **only** made when you use the **new** keyword. <br>
+Deep Cpoies: References point to completely distinct Objects. Changing one doest change the other. <br>
+Shallow Copies: References point to the same Object. Changing One changes the other. <br>
+```Java
+Dog[] myArray = new Dog[4];
+for (int i = 0; i < myArray.size(); i++) {
+  myArray[i] = new Dog("Travis", 3, 3);
+}
+```
+What kind of copy is this? See the drawing below for a clearer example: <br>
+<img width="808" alt="Screen Shot 2021-03-28 at 12 25 50 AM" src="https://user-images.githubusercontent.com/59402383/112743348-355d4400-8f5c-11eb-921f-761e0f2568d7.png"> <br>
+What about: <br>
+```Java
+Dog[] myArray = new Dog[4];
+Dog hm = new Dog("Sam", 3, 3);
+for (int i = 0; i < myArray.size(); i++) {
+  myArray[i] = hm;
+}
+```
+<img width="778" alt="Screen Shot 2021-03-28 at 12 28 27 AM" src="https://user-images.githubusercontent.com/59402383/112743397-89682880-8f5c-11eb-9714-b9f294e8222c.png">
 
 # Practice Problems
 <br></br>
