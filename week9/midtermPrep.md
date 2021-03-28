@@ -19,7 +19,7 @@
 ### Inheritance
 Simple enough we are pros at this
 ```Java
-Public class Pet {
+public class Pet {
   protected String petName;
   protected int age;
   Pet(String a, int b) {
@@ -31,8 +31,8 @@ Public class Pet {
     return age;
   }
   
-  public int getName() {
-    return name;
+  public String getName() {
+    return petName;
   }
   public boolean whosBigger(Pet a) {
     if (age < a.age) {
@@ -61,6 +61,7 @@ public class Dog extends Pet {
     return true;
   }
 }
+
 ```
 **Questions** <br>
 1. Is the super call necessary <br>
@@ -68,7 +69,7 @@ public class Dog extends Pet {
 ### Polymorphism
 Lets continue with the example above I will copy it below:
 ```Java
-Public class Pet {
+public class Pet {
   protected String petName;
   protected int age;
   Pet(String a, int b) {
@@ -80,11 +81,10 @@ Public class Pet {
     return age;
   }
   
-  public int getName() {
-    return name;
+  public String getName() {
+    return petName;
   }
   public boolean whosBigger(Pet a) {
-    System.out.println("Im in Cat");
     if (age < a.age) {
       return false;
     }
@@ -99,8 +99,8 @@ public class Dog extends Pet {
     treatLevel = treat;
   
   }
-   public boolean whosBigger(Dog a) {
-    System.out.println("Im in Dog");
+  
+  public boolean whosBigger(Dog a) {
     if (age < a.age) {
       return false;
     }
@@ -111,6 +111,7 @@ public class Dog extends Pet {
     return true;
   }
 }
+
 ```
 Let us walk through what happens when we execute the following line: <br>
 ```Pet xyz = new Dog();```
