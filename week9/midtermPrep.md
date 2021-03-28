@@ -68,7 +68,6 @@ public class Dog extends Pet {
 ### Polymorphism
 Lets continue with the example above I will copy it below:
 ```Java
-<img width="726" alt="Screen Shot 2021-03-27 at 11 58 55 PM" src="https://user-images.githubusercontent.com/59402383/112742905-663b7a00-8f58-11eb-978e-ab6bf41c3a0e.png">
 Public class Pet {
   protected String petName;
   protected int age;
@@ -115,6 +114,13 @@ Let us walk through what happens when we execute the following line: <br>
 ```Pet xyz = new Dog();```
 As weve learned before the ``new`` key word is what actually makes the object. So from this we can clearly see weve made a new Dog object. This is drawn below:
  <img width="727" alt="Screen Shot 2021-03-27 at 11 59 20 PM" src="https://user-images.githubusercontent.com/59402383/112742921-7e12fe00-8f58-11eb-97d0-7befd21762d0.png">
+ Then we have said Hey Java, masquerade this ``Dog`` Object as a ``Pet``. Effectively placing walls around all the Dog specific components and only keeping the ``Pet`` ones. This can be seen below:
+<img width="722" alt="Screen Shot 2021-03-28 at 12 02 25 AM" src="https://user-images.githubusercontent.com/59402383/112742982-fc6fa000-8f58-11eb-9629-36d8c32f68af.png">
+Run through a couple examples of this in the java Compiler. Do you really understand whats going on. <br>
+
+**Questions** <br>
+1. Can you repeat the process above for Up-Casting
+2. Test this one out in the compiler to be ultra-certain. Which version of ``whosBigger()`` do we have? The ``Dog`` version or the ``Pet`` version? Do you see why?
 
 
 # Practice Problems
