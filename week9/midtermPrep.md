@@ -159,6 +159,38 @@ public class Utitity {
 **Questions**
 1. How do we call Static methods?
 2. When is making Static methods appropiate?
+
+### Interfaces
+This remains fresh in your heads so this part will be quite short <br>
+
+1. If a class implements an Interface it agrees to Implement all the methods of that Interface
+2. Using interfaces allow us to take advantage of some polymorphic abilities:
+
+```Java
+public class Dog extends Pet implements Comparable {
+  public int treatLevel;
+  Dog(String name, int age, int treat) {
+    super(a, b)
+    treatLevel = c;
+  
+  }
+   public boolean whosBigger(Dog a) {
+    System.out.println("Im in Dog");
+    if (age < a.age) {
+      return false;
+    }
+    return true;
+  }
+  
+  public boolean goodDog() {
+    return true;
+  }
+  //say we Implemented compareTo() here.
+}
+```
+We can then say:
+``Comparable j = new Dog();
+
 # Practice Problems
 <br></br>
 
