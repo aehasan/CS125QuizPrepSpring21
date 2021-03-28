@@ -16,12 +16,12 @@
 # Conceptual Check
 <br>
 
-###Inheritance
+### Inheritance
 Simple enough we are pros at this
 ```Java
 Public class Pet {
-  private String petName;
-  private int age;
+  protected String petName;
+  protected int age;
   Pet(String a, int, b) {
     petName = a;
     b = age;
@@ -49,13 +49,72 @@ public class Dog extends Pet {
     treatLevel = c;
   
   }
+  
+  public boolean whosBigger(Dog a) {
+    if (age < a.age) {
+      return false;
+    }
+    return true;
+  }
+  
+  public boolean goodDog() {
+    return true;
+  }
 }
 ```
 **Questions** <br>
 1. Is the super call necessary <br>
 2. What variables can we access with a Pet reference? What about with a Dog reference
-###Polymorphism
+### Polymorphism
+Lets continue with the example above I will copy it below:
+```Java
+<img width="726" alt="Screen Shot 2021-03-27 at 11 58 55 PM" src="https://user-images.githubusercontent.com/59402383/112742905-663b7a00-8f58-11eb-978e-ab6bf41c3a0e.png">
+Public class Pet {
+  protected String petName;
+  protected int age;
+  Pet(String a, int, b) {
+    petName = a;
+    b = age;
+  }
+  
+  public int getAge() {
+    return age;
+  }
+  
+  public int getName() {
+    return name;
+  }
+  public boolean whosBigger(Pet a) {
+    if (age < a.age) {
+      return false;
+    }
+    return true;
+  }
+}
 
+public class Dog extends Pet {
+  public int treatLevel;
+  Dog(String name, int age, int treat) {
+    super(a, b)
+    treatLevel = c;
+  
+  }
+   public boolean whosBigger(Dog a) {
+    if (age < a.age) {
+      return false;
+    }
+    return true;
+  }
+  
+  public boolean goodDog() {
+    return true;
+  }
+}
+```
+Let us walk through what happens when we execute the following line: <br>
+```Pet xyz = new Dog();```
+As weve learned before the ``new`` key word is what actually makes the object. So from this we can clearly see weve made a new Dog object. This is drawn below:
+ <img width="727" alt="Screen Shot 2021-03-27 at 11 59 20 PM" src="https://user-images.githubusercontent.com/59402383/112742921-7e12fe00-8f58-11eb-97d0-7befd21762d0.png">
 
 
 # Practice Problems
