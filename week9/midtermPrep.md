@@ -2,29 +2,59 @@
 **Disclaimer: This document is meant to supplement other studying materials, not replace them**<br>
 
 ### Concepts
+**This quiz prep will focus on covering what we view as the most difficult material these past couple weeks. Again it does not cover everything. Theres only so much that can be done in an hour**
+   * Inheritance
+   * Polymorphism
+   * References/ Deep and Shallow Copies
+   * Static
    * Interfaces
-   * Abstract Classes
-   * Exams are cumulative. You should have a strong understanding of past material(References, Polymorphism, etc.). If not, ask for help!
    
-   If you need more practice with interfaces and abstract classes & methods, go to the EMP site: https://cs199emp.netlify.app/dist/s21/2021-03-19.html#1
+   If you need more practice with check out the the EMP site: https://cs199emp.netlify.app/dist/s21/2021-03-19.html#1
    
    You can use a code playground on the CS 125 website to follow along and test the code! https://cs125.cs.illinois.edu/
 
 # Conceptual Check
 <br>
 
+###Inheritance
+Simple enough we are pros at this
+```Java
+Public class Pet {
+  private String petName;
+  private int age;
+  Pet(String a, int, b) {
+    petName = a;
+    b = age;
+  }
+  
+  public int getAge() {
+    return age;
+  }
+  
+  public int getName() {
+    return name;
+  }
+  public boolean whosBigger(Pet a) {
+    if (age < a.age) {
+      return false;
+    }
+    return true
+  }
+}
 
-When a class implements an interface, what is the promise that is made?<br>
-
-Can a class implement an interface and extend a class?<br>
-
-How many interfaces can we implement? <br>
-
-How do you declare an interface? <br>
-
-Can you instantiate an abstract class? <br>
-
-What are abstract methods? <br>
+public class Dog extends Pet {
+  public int treatLevel;
+  Dog(String name, int age, int treat) {
+    super(a, b)
+    treatLevel = c;
+  
+  }
+}
+```
+**Questions** <br>
+1. Is the super call necessary <br>
+2. What variables can we access with a Pet reference? What about with a Dog reference
+###Polymorphism
 
 
 
