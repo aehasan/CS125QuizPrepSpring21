@@ -125,6 +125,55 @@ Run through a couple examples of this in the java Compiler. Do you really unders
 1. Can you repeat the process above for Up-Casting
 2. Test this one out in the compiler to be ultra-certain. Which version of ``whosBigger()`` do we have? The ``Dog`` version or the ``Pet`` version? Do you see why?
 
+**Interative Polymorphism Review 2** <br>
+Let's create some new Pet and Dog objects 
+We have a Pet class and Dog class that extends the Pet class as indicated in the code below.
+```java
+public class Pet {
+  void getNoises() {
+    System.out.println("Pet noises"); 
+  }
+  void getType() { //this is found in Pet only 
+    System.out.println("The type is Pet"); 
+  }
+}
+
+public class Dog extends Pet {
+  @Override
+  void getNoises() {
+    System.out.println("Dog noises woof woof"); 
+  }
+  void getName() { //this is found in Dog only 
+    System.out.println("My Dog is named Doggy"); 
+  }
+}
+```
+ Create these objects
+ ```java
+Pet pet1 = new Pet(); 
+Dog dog1 = new Dog(); 
+Pet petThatIsADog = new Dog(); 
+```
+What will happen when we run the following lines of code? If there is an error, how can we fix it?
+Go through each line one at a time. 
+```java
+pet1.getName(); 
+
+dog1.getNoises(); 
+dog1.getType();  
+
+petThatIsADog.getNoises();
+petThatIsADog.getType(); 
+petThatIsADog.getName(); 
+```
+If facilitator has zoom pool functionality enabled, they can also launch a zoom poll and have students vote on the right answer.
+* Answer choices
+  * Pet noises
+  * The type is Pet
+  * Dog noises woof woof
+  * My Dog is named Doggy
+  * error
+
 ### References/ Copying
 Objects in Java are **only** made when you use the **new** keyword. <br>
 Deep Copies: References point to completely distinct Objects. Changing one doest change the other. <br>
