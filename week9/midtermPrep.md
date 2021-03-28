@@ -189,7 +189,7 @@ public class Dog extends Pet implements Comparable {
 }
 ```
 We can then say:
-``Comparable j = new Dog();
+``Comparable j = new Dog();``
 
 # Practice Problems
 <br></br>
