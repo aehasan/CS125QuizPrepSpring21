@@ -168,11 +168,11 @@ petThatIsADog.getName();
 ```
 If facilitator has zoom pool functionality enabled, they can also launch a zoom poll and have students vote on the right answer.
 * Answer choices
-  * Pet noises
-  * The type is Pet
-  * Dog noises woof woof
-  * My Dog is named Doggy
-  * error
+  </br>a) Pet noises
+  </br>b) The type is Pet
+  </br>c) Dog noises woof woof
+  </br>d) My Dog is named Doggy
+  </br>e) error
 
 ### References/ Copying
 Objects in Java are **only** made when you use the **new** keyword. <br>
