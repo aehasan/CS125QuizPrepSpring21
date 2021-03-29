@@ -115,7 +115,7 @@ public class Dog extends Pet {
 ```
 Let us walk through what happens when we execute the following line: <br>
 ```Pet xyz = new Dog();```
-As we have learned before, the ``new`` key word is what actually makes the object. So from this we can clearly see weve made a new Dog object. This is drawn below:<br>
+As we have learned before, the ``new`` key word is what actually makes the object. So from this we can clearly see we've made a new Dog object. This is drawn below:<br>
  <img width="727" alt="Screen Shot 2021-03-27 at 11 59 20 PM" src="https://user-images.githubusercontent.com/59402383/112742921-7e12fe00-8f58-11eb-97d0-7befd21762d0.png"> <br>
  Then we have said Hey Java, masquerade this ``Dog`` Object as a ``Pet``. Effectively placing walls around all the Dog specific components and only keeping the ``Pet`` ones. This can be seen below: <br>
 <img width="722" alt="Screen Shot 2021-03-28 at 12 02 25 AM" src="https://user-images.githubusercontent.com/59402383/112742982-fc6fa000-8f58-11eb-9629-36d8c32f68af.png"> <br>
