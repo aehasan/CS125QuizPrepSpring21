@@ -28,7 +28,7 @@ You are given a list that appears to have non-constant times for insert. Which k
 # Practice Problems
 <br></br>
 
-1. Let us modify the existing linked class below. Right a function that takes in the head of another linked list. Go through and sum only the values at even indeces of your list and the other list. You will need to copy the following code into your playground:
+1. Let us modify the existing linked class below. Write a function that takes in the head of another linked list. Go through the other list and sum only the values at even indeces of your list and the other list. You will need to copy the following code into your playground:
 ```java
 public class SimpleLinkedList {
   private class Item {
@@ -76,7 +76,7 @@ public class SimpleLinkedList {
 
 ```
 
-2. Modify the code above to override the isEquals() method. Two linked lists are equal if they have the same value at every index <br>
+2. Modify the code above to override the `isEquals()` method. Two linked lists are equal if they have the same value at every index <br>
 
 
 3. Let us make a new different array-list. In this case``add`` only supports adding to the end of the Array List. And takes in one argument ``Object value`` . After each add instead of create an array that is one bigger, it will create an array that is two times as big every once in a while. Can you see the advantage to this? It will also support ``delete`` which takes in no arguments and deletes an element from the back of the list. Basic starter code is attached below. <br>
