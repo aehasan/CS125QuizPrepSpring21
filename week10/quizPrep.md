@@ -68,7 +68,8 @@ LinkedList f = new LinkedList();
 j.evenSum(f) // goes through and sums the even values of j and f.
 ```
 <br>
-2. Edit the Linked List function above to include an ``insert()`` function that takes two arguments an ``Object value`` and a ``int index``. Assert that the index is of the proper values(for you to figure out) and insert appropiatley. <br>
+2. Edit the Linked List function above to include an ``insert()`` function that takes two arguments an ``Object value`` and a ``int index``. Assert that the index is of the proper values(for you to figure out) and insert appropiatley. 
+<br>
 
 
 3. Let us make a new different array-list. In this case``add`` only supports adding to the end of the Array List. And takes in one argument ``Object value`` . After each add instead of create an array that is one bigger, it will create an array that is two times as big every once in a while. Can you see the advantage to this? It will also support ``delete`` which takes in no arguments and deletes an element from the back of the list. Basic starter code is attached below. <br>
