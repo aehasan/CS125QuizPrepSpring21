@@ -56,22 +56,6 @@ public class SimpleLinkedList {
     return size;
   }
 
-
-  public void add(int index, Object value) {
-    assert index >= 0 && index <= size;
-    
-    if (index == 0) {
-      start = new Item(value, start);
-    } else {
-      Item nextItem = start;
-      for (int i = 0; i < index - 1; i++) {
-        nextItem = nextItem.next;
-      }
-      nextItem.next = new Item(value, nextItem.next);
-    }
-    size++;
-        
-  }
 }
 
 ```
