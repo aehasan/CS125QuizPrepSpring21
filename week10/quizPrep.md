@@ -61,12 +61,14 @@ public class SimpleLinkedList {
 ```
 <br>
 An example of how we want this function to work:
+
 ```Java
 LinkedList j = new LinkedList();
 LinkedList f = new LinkedList();
 //add some values
 j.evenSum(f) // goes through and sums the even values of j and f.
 ```
+
 <br>
 
 2. Edit the Linked List function above to include an ``insert()`` function that takes two arguments an ``Object value`` and a ``int index``. Assert that the index is of the proper values(for you to figure out) and insert appropiatley.
