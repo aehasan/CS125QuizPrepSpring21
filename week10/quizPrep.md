@@ -90,7 +90,8 @@ public class SimpleArrayList {
     return list.length;
   }
 }
-``` <br>
+``` 
+<br>
 4. **Hard** Modify the Linked List code above to override the `isEquals()` method. Two linked lists are equal if they have the same value at every index <br>
 
 
