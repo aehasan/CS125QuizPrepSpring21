@@ -2,9 +2,11 @@
 **Disclaimer: This document is meant to supplement other studying materials, not replace them**<br>
 
 ### Concepts
+   * Algorithm run time analysis
    * Linked Lists
    * Array Lists
-   * Asymptotic run time
+   * Hashing
+   * Maps 
    * Exams are cumulative. You should have a strong understanding of past material(References, Polymorphism, etc.). If not, ask for help!
    
    If you need more practice with interfaces and abstract classes & methods, go to the EMP site: https://cs199emp.netlify.app/dist/s21/2021-03-19.html#1
