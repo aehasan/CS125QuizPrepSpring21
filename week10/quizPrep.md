@@ -23,7 +23,7 @@ What is the Big-O run time to ``insert`` at the beginning or end of a linked lis
 
 Can you draw out how we would insert something into the middle of a linked list? What index do we need to walk too? <br>
 
-You are given a list that appears to have non-constant times for insert. Which kind of list is it? LinkedList or ArrayList? <br>
+You are given a list that appears to have non-constant times for ``insert``. Which kind of list is it? LinkedList or ArrayList? <br>
 
 
 
