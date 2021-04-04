@@ -29,7 +29,7 @@ You are given a list that appears to have non-constant times for insert. Which k
 <br></br>
 
 1. Let us modify the existing linked class below. Right a function that takes in the head of another linked list. Go through and sum only the values at even indeces of your list and the other list. You will need to copy the following code into your playground:
-```
+```java
 public class SimpleLinkedList {
   private class Item {
     private Object value;
