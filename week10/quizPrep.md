@@ -68,7 +68,8 @@ LinkedList f = new LinkedList();
 j.evenSum(f) // goes through and sums the even values of j and f.
 ```
 <br>
-2. Edit the Linked List function above to include an ``insert()`` function that takes two arguments an ``Object value`` and a ``int index``. Assert that the index is of the proper values(for you to figure out) and insert appropiatley. 
+2. Edit the Linked List function above to include an ``insert()`` function that takes two arguments an ``Object value`` and a ``int index``. Assert that the index is of the proper values(for you to figure out) and insert appropiatley.
+ 
 <br>
 
 
@@ -89,8 +90,7 @@ public class SimpleArrayList {
     return list.length;
   }
 }
-```
-
+``` <br>
 4. **Hard** Modify the Linked List code above to override the `isEquals()` method. Two linked lists are equal if they have the same value at every index <br>
 
 
