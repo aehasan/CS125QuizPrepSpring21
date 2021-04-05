@@ -56,6 +56,13 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
    * References/ Deep and Shallow Copies
    * Static
    * Interfaces
+
+   [**week10**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week10/quizPrep.md)
+   * Algorithm run time analysis
+   * Linked Lists
+   * Array Lists
+   * Hashing
+   * Maps
   
    
 ### Inspiration 
