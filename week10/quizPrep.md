@@ -31,7 +31,9 @@ You are given a list that appears to have non-constant times for ``insert``. Whi
 <br></br>
 
 1. Let us modify the existing linked class below. Write a function called ``evenSum`` that takes in the head of another linked list. Go through both lists and sum only the values at even indeces of your list and the other list. You will need to copy the following code into your playground:
+
 ```java
+// a quick warning: This code will not compile in real life scenarios since you cant add objects. it is here for conceptual understanding. You can easily change this Linked List, to be a list of Ints.
 public class SimpleLinkedList {
   private class Item {
     private Object value;
