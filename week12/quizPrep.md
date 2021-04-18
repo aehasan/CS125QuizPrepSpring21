@@ -51,11 +51,11 @@ countTimesNumberAppears(0, 0);    // Throws IllegalArgumentException
 
 2. Write a function called ``binaryTreeEvenSum`` that takes in a ``BinaryTree<Integer>`` and returns the sum of the even values of the BinaryTree.
 Make sure you include ``import cs125.trees.BinaryTree;`` above your code.
-Here are some example inputs and outputs:
+Here are some text cases: 
 ```java
-binaryTreeEvenSum(new BinaryTree<>(2, 6, 6))  // Returns 14
-binaryTreeEvenSum(new BinaryTree<>(2, 6, 5))  // Returns 8
-binaryTreeEvenSum(new BinaryTree<>(2))        // Returns 2
+System.out.println(binaryTreeEvenSum(new BinaryTree<>(2, 6, 6)));  // Prints 14
+System.out.println(binaryTreeEvenSum(new BinaryTree<>(2, 6, 5))); // Prints 8
+System.out.println(binaryTreeEvenSum(new BinaryTree<>(2)));      // Prints 2
 ```
 <br>
 Feedback: https://forms.gle/yJLaYFaBtthPf3AP6 <br>
