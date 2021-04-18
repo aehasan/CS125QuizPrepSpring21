@@ -17,13 +17,21 @@
 What programming construct do we use to handle exceptions? <br>
 
 What are the types of exceptions? Generally, which exceptions do we handle and which ones do we not handle?<br>
-
+    <details>
+    <summary>Helpful Image for Exceptions</summary>
+    <img src="/images/Exception-in-java.png" alt="drawing" width="600"/>
+    </details>
+  
 What are some examples of exceptions? <br>
 
 What are the three things that all successful recursive algorithms have?<br>
 
-Define these terms in the context of trees: parent, child, root, leaf, level, depth/height <br>
-
+Define these terms in the context of trees: parent, child, root, leaf, level, depth/height
+    <details>
+    <summary>Helpful Image for Trees</summary>
+    <img src="/images/binary_tree.jpg" alt="drawing" width="600"/>
+    </details>
+    
 What makes a ``BinaryTree`` unique compared to other trees? <br>
 
 # Practice Problems
