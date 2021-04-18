@@ -43,7 +43,7 @@ Hint: You can use ``number % 10`` to get the last digit and ``number / 10`` to g
 
 Here are some example inputs and outputs:
 ```java
-System.out.println(countTimesNumberAppears(717, 7)); // Prints 2
+System.out.println(countTimesNumberAppears(707, 7)); // Prints 2
 System.out.println(countTimesNumberAppears(123, 8));  // Prints 0
 System.out.println(countTimesNumberAppears(-1, -1));    // Throws IllegalArgumentException
 ```
