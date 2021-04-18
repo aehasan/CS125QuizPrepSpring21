@@ -38,14 +38,14 @@ What makes a ``BinaryTree`` unique compared to other trees? <br>
 
 1. Write a function called ``countTimesNumberAppears`` that takes in two ints: one representing the number and the other 
 representing the target number. Using recursion, return the number of times that the target is in the number. 
-If the number or the target is less than or equal to 0, throw an ``IllegalArgumentException``.
+If the number or the target is less than 0, throw an ``IllegalArgumentException``.
 Hint: You can use ``number % 10`` to get the last digit and ``number / 10`` to get rid of the last digit.
 
 Here are some example inputs and outputs:
 ```java
-countTimesNumberAppears(717, 7);  // Returns 2
-countTimesNumberAppears(123, 8);  // Returns 0
-countTimesNumberAppears(0, 0);    // Throws IllegalArgumentException
+System.out.println(countTimesNumberAppears(717, 7)); // Prints 2
+System.out.println(countTimesNumberAppears(123, 8));  // Prints 0
+System.out.println(countTimesNumberAppears(-1, -1));    // Throws IllegalArgumentException
 ```
 <br></br>
 
