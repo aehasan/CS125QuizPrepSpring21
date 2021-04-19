@@ -61,6 +61,11 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
    * Array Lists
    * Hashing
    * Maps
+
+   [**week12**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/edit/main/week12/quizPrep.md)
+   * Exceptions
+   * Recursion
+   * Trees 
   
    
 ### Inspiration 
