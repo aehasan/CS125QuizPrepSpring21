@@ -106,10 +106,8 @@ public int helper(int num, int lookingFor) {
       return 0;
     }
     if (num % 10 == lookingFor) {
-      //System.out.println("one match");
       return 1 + helper(num / 10, lookingFor);
     } else {
-      //System.out.println("no match");
       return 0 + helper(num / 10, lookingFor);
     }
 }
