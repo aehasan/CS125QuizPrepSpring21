@@ -24,7 +24,7 @@
 
 
 
-You should know how to solve these problems
+You should know how to solve these problems <br>
   b) Create a static method named insertionSort, that takes in an array of Comparables and sorts them using insertion sort and returns the sorted array.
     <details>
    <summary>Spoiler!</summary>
