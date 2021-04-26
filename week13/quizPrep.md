@@ -19,8 +19,12 @@
 
 
 ### Concept Overview and Practice
+1. Write a program that given a binary tree and a value find the distance from the root to that value. Hint: This is a good time to use a helper function <br>
+2. Write a program that given a binary tree determines if it is full. A tree is full if each node has two children except for leaf nodes.
 
 
+
+You should know how to solve these problems
   b) Create a static method named insertionSort, that takes in an array of Comparables and sorts them using insertion sort and returns the sorted array.
     <details>
    <summary>Spoiler!</summary>
