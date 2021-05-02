@@ -146,8 +146,8 @@ public void f(int n) {
 ```
 ```java
 public void z(LinkedList j, int n) {
-  int f = z.get(n);
-  int l = z.get(n + 1);
+  int f = j.get(n);
+  int l = j.get(n + 1);
   for (int i = 0; i < n; i++) {
     int oop = z.get(i);
   }
@@ -170,6 +170,6 @@ Quick Sort <br>
 
 ## Concept Overview and Practice
 1. Practice Exam
-2. Given a linkedList of objects map the number of times each object appears in a Map<Object, Int>
+2. Given a tree or a linkedlist of objects map the number of times each object appears in a Map<Object, Integer>
 3. Open Problem session
 
