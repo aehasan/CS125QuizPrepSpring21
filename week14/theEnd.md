@@ -9,7 +9,10 @@
 To understand the behavior of a function when the inputs get really large 
 </details>
 
-<details> <summary>T/F An algorithm with a runtime O(n) is faster than an algorithm with a runtime </summary>
+<details> <summary>T/F An algorithm with a runtime O(logn) is considered faster than an algorithm with a runtime O(n) </summary>
+True
+</details>
+<details> <summary>T/F An algorithm with a runtime O(logn) is alwayss faster than an algorithm with a runtime O(n) </summary>
 True
 </details>
 
