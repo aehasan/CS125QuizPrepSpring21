@@ -13,8 +13,7 @@ To understand the behavior of a function when the inputs get really large
 True
 </details>
 <details> <summary>T/F An algorithm with a runtime O(logn) is alwayss faster than an algorithm with a runtime O(n) </summary>
-True
-</details>
+False</details>
 
 <details> <summary>
 Lists: What is one difference between lists and arrays? <br>
