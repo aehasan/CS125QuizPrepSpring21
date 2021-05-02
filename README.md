@@ -69,6 +69,12 @@ Welcome to Quiz Prep weekly sessions for CS 125. These run 5 times a week at the
 
    [**week13**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week13/quizPrep.md)
    * Sorts
+
+   [**week14**](https://github.com/ranchncarrots/CS125QuizPrepSpring21/blob/main/week14/theEnd.md)
+   * Algorithm Analysis, Lists, Hashing, Maps
+   * Trees and Recursion
+   * Sorting
+
   
    
 ### Inspiration 
