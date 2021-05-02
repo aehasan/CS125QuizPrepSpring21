@@ -159,5 +159,6 @@ Quick Sort <br>
 
 ### Concept Overview and Practice
 1. Practice Exam
-2. Open Problem session
+2. Given a linkedList of objects map the number of times each object appears in a Map<Object, Int>
+3. Open Problem session
 
