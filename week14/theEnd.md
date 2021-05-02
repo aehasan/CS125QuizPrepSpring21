@@ -1,10 +1,11 @@
 # The End
 
-### Concepts
+## Concepts
 * Algorithm Analysis, Lists, Hashing, Maps
 * Trees and Recursion
 * Sorting
-### Concept Overview 
+## Concept Overview 
+### Big-O Notation
 <details> <summary>Why do we study Big-O notation? </summary>
 To understand the behavior of a function when the inputs get really large 
 </details>
@@ -15,8 +16,9 @@ True
 <details> <summary>T/F An algorithm with a runtime O(logn) is always faster than an algorithm with a runtime O(n) </summary>
 False</details>
 
+### Linked Lists and Array Lists
 <details> <summary>
-Lists: What is one difference between lists and arrays? <br>
+What is one difference between lists and arrays? <br>
 a. Lists can only hold ints while arrays can hold any data type <br>
 b. The size of a list can change while the size of an array cannot <br>
 c. Each object in a list always contains a pointer to the next object, but this is not the case with arrays <br>
@@ -25,7 +27,7 @@ d. There are no obvious differences between lists and arrays <br>
 Answer: (b). Lists can change in size while arrays cannot. A is simply not true, and c is only true for the linked list implementation of lists, but not all lists.
 </details>
 
-ArrayLists: What are the runtimes for the following methods in a typical ArrayList implementation? <br>
+What are the runtimes for the following methods in a typical ArrayList implementation? <br>
 * get() <br>
 * set() <br>
 * add() *add at beginning* <br>
@@ -39,7 +41,7 @@ Answer: O(1) - get() and set() are both simply array lookups for an ArrayList, a
 Answer: O(n) - add() and insert() are the same for ArrayLists. add(), insert() and remove() involve copying values of the array into a new array of size length + 1 or length - 1. This copying involves a for loop so takes linear time in the size of the array
 </details>
 
-<details> <summary> LinkedLists: Linked lists maintain order by linking to a new Item object, each of which contain _______ and  _______. <br>
+<details> <summary> Linked lists maintain order by linking to a new Item object, each of which contain _______ and  _______. <br>
 a. An index, a value <br>
 b. A value, an object <br>
 c. An index, a reference <br>
@@ -57,6 +59,7 @@ d. Insert (anywhere) <br>
 Answer: a.  LinkedList has a time complexity of O(1) for adding an item at the front of the list. This is because adding an item to the front of a LinkedList simply involves moving the start reference. This is constant time. Adding an item at any index of an ArrayList has time complexity of O(n). 
 </details>
 
+### Hashing and HashCodes
 <details> <summary> T/F Hashing a unique object should result in a unique hash code
 </summary>
 Answer: True. Definition of hashing. 
@@ -75,6 +78,7 @@ Answer: When there are more objects than possible hash codes
 Answer: True
 </details>
 
+### Maps
 <details> <summary> T/F Maps sometimes contain multiple values for the same key
  </summary>
 Answer: False: Maps can only contain one value for each key
@@ -84,22 +88,24 @@ Answer: False: Maps can only contain one value for each key
 Answer: True: Map keys and values can only be Objects. If you want to use a primitive, just use the object representation of that primitive (e.g., int → Integer).
 </details>
 
-<details> <summary> T/F Catching Exceptions: You can have multiple catch blocks in a try-catch statement </summary>
+### Catching Exceptions
+<details> <summary> T/F You can have multiple catch blocks in a try-catch statement </summary>
 Answer: True
 </details>
 
-<details> <summary> T/F Catching Exceptions: You can have multiple try blocks in a try-catch statement </summary>
+<details> <summary> T/F You can have multiple try blocks in a try-catch statement </summary>
 Answer: False
 </details>
 
-<details> <summary> T/F Catching Exceptions: If any of the catch blocks execute, the code following the try-catch statement will not execute </summary>
+<details> <summary> T/F If any of the catch blocks execute, the code following the try-catch statement will not execute </summary>
 Answer: False - this is the point of the catch blocks, they make sure your program doesn’t simply quit if an exception is encountered 
 </details>
 
-<details> <summary> T/F Catching Exceptions: If an exception is thrown and not caught, the code following the try-catch statement will not execute </summary>
+<details> <summary> T/F If an exception is thrown and not caught, the code following the try-catch statement will not execute </summary>
 Answer: True - your code will not execute and it will be as if the try-catch statement wasn’t there at all
 </details>
 
+### Recursion
 <details> <summary> What are the characteristics of recursion (think: three things you need) </summary>
 Answer: base case (smallest possible input), recurisive case (defining function in terms of itself), must change it's state and move towards base state 
 </details>
@@ -108,6 +114,7 @@ Answer: base case (smallest possible input), recurisive case (defining function 
 Answer: The main method is called by the user to solve the problem. If there is also a helper method, no recursion is done in the main method. It is usually used to “set up” the problem for recursion, for example: creating helpful data structures, or throwing exceptions for certain cases that cannot be handled by recursion. The helper method is the recursive one. It is called by the main method and usually is private. 
 </details>
 
+### Tree Runtimes
 <details> <summary> You have a tree of n nodes and you have to search through the entire tree for a value. What is the runtime? </summary>
 Answer: O(n). Look at every node 
 </details>
@@ -116,6 +123,7 @@ Answer: O(n). Look at every node
 Answer: O(n). Look at every node 
 </details>
 
+### Sorting Algorithms
 <details> <summary> What is bubble sort? </summary>
 Answer: starting at first element go through array an compare pairs of values and swap if needed. then repeat starting at the second element. repeat this all the until second to last element. 
 </details>
@@ -160,7 +168,7 @@ Quick Sort <br>
 
 
 
-### Concept Overview and Practice
+## Concept Overview and Practice
 1. Practice Exam
 2. Given a linkedList of objects map the number of times each object appears in a Map<Object, Int>
 3. Open Problem session
