@@ -4,8 +4,39 @@
 ### Concepts
 * Algos
 
-### EMP Session Links 
-* [EMP 11-17](https://cs199emp.netlify.app/dist/2020-11-19.html)
+### Concept Overview
+
+Evaluate the runtime: <br>
+```java
+public void f(int n) {
+  for (int i = 0; i < n; i ++) {
+    for(int j = i; j < n; j++) {
+      for (int z = j; z < n; z++) {
+        break
+      }
+    }
+  }
+}
+```
+```java
+public void z(LinkedList j, int n) {
+  int f = z.get(n);
+  int l = z.get(n + 1);
+  for (int i = 0; i < n; i++) {
+    int oop = z.get(i);
+  }
+}
+```
+Determine the best implementations: <br>
+I want to store info in an Array-Like data structure. I expect to be reading from the data-structure more then I am writing to it. <br>
+I have stored info in an unkown List. It appears that calls to getItem are not constant. What kind of List is this? <br>
+I want to implement a sorting algorithm in O(nlogn) time. Which one should I use. <br>
+
+Describe the sorting algorithm and identify a worst input if any: <br>
+Insertion Sort <br>
+Merge Sort <br>
+Quick Sort <br>
+
 
 
 
@@ -14,7 +45,6 @@
 ### Concept Overview and Practice
 1. Write a program that given a binary tree and a value find the distance from the root to that value. Hint: This is a good time to use a helper function <br>
 2. Write a program that given a binary tree determines if it is full. A tree is full if each node has two children except for leaf nodes.
-
 
 
 You should know how to solve these problems <br>
