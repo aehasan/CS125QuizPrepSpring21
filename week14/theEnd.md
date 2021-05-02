@@ -149,7 +149,7 @@ public void z(LinkedList j, int n) {
   int f = j.get(n);
   int l = j.get(n + 1);
   for (int i = 0; i < n; i++) {
-    int oop = z.get(i);
+    int oop = j.get(i);
   }
 }
 ```
