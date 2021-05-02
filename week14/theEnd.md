@@ -49,10 +49,10 @@ Answer: (d). The Item objects contain the current value and a reference to the n
 </details>
 
 <details> <summary> For which method does LinkedList have a faster runtime than ArrayList? <br>
-a. Add (at front)
-b. Get
-c. Set
-d. Insert (anywhere)
+a. Add (at front) <br>
+b. Get <br>
+c. Set <br>
+d. Insert (anywhere) <br>
  </summary> 
 Answer: a.  LinkedList has a time complexity of O(1) for adding an item at the front of the list. This is because adding an item to the front of a LinkedList simply involves moving the start reference. This is constant time. Adding an item at any index of an ArrayList has time complexity of O(n). 
 </details>
