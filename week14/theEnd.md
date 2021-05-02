@@ -4,7 +4,7 @@
 * Algorithm Analysis, Lists, Hashing, Maps
 * Trees and Recursion
 * Sorting
-### Practice Problems 
+### Concept Overview 
 <details> <summary>Why do we study Big-O notation? </summary>
 To understand the behavior of a function when the inputs get really large 
 </details>
@@ -120,9 +120,6 @@ Answer: starting at first element go through array an compare pairs of values an
 <details> <summary> What is bubble sort best case and worst case? </summary>
 Answer:  Best case is an already sorted array (O(n)). Worst case when a value is in the spot furthest from where it should be ((O(n^2)).
 </details>
-
-
-### Concept Overview
 
 Evaluate the runtime: <br>
 ```java
