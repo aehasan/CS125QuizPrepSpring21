@@ -1,10 +1,126 @@
-
 # The End
 
 ### Concepts
 * Algorithm Analysis, Lists, Hashing, Maps
 * Trees and Recursion
 * Sorting
+### Practice Problems 
+<details> <summary>Why do we study Big-O notation? </summary>
+To understand the behavior of a function when the inputs get really large 
+</details>
+
+<details> <summary>T/F An algorithm with a runtime O(n) is faster than an algorithm with a runtime </summary>
+True
+</details>
+
+<details> <summary>
+Lists: What is one difference between lists and arrays? <br>
+a. Lists can only hold ints while arrays can hold any data type <br>
+b. The size of a list can change while the size of an array cannot <br>
+c. Each object in a list always contains a pointer to the next object, but this is not the case with arrays <br>
+d. There are no obvious differences between lists and arrays <br>
+</summary>
+Answer: (b). Lists can change in size while arrays cannot. A is simply not true, and c is only true for the linked list implementation of lists, but not all lists.
+</details>
+
+ArrayLists: What are the runtimes for the following methods in a typical ArrayList implementation?
+get() <br>
+set() <br>
+add() *add at beginning* <br>
+insert() *(insert in middle)* <br>
+remove()
+<details> <summary> get() and set() </summary>
+Answer: O(1) - get() and set() are both simply array lookups for an ArrayList, and array lookups take constant time
+</details>
+</details>
+<details> <summary> add() and insert() and remove() </summary>
+Answer: O(n) - add() and insert() are the same for ArrayLists. add(), insert() and remove() involve copying values of the array into a new array of size length + 1 or length - 1. This copying involves a for loop so takes linear time in the size of the array
+</details>
+
+<details> <summary> LinkedLists: Linked lists maintain order by linking to a new Item object, each of which contain _______ and  _______. <br>
+An index, a value <br>
+A value, an object <br>
+An index, a reference <br>
+A value, a reference 
+ </summary>
+Answer: (d). The Item objects contain the current value and a reference to the next item object. 
+</details>
+
+<details> <summary> For which method does LinkedList have a faster runtime than ArrayList? Add (at front)
+Get
+Set
+Insert (anywhere)
+ </summary> 
+Answer: a.  LinkedList has a time complexity of O(1) for adding an item at the front of the list. This is because adding an item to the front of a LinkedList simply involves moving the start reference. This is constant time. Adding an item at any index of an ArrayList has time complexity of O(n). 
+</details>
+
+<details> <summary> Hashing a unique object should result in a unique hash code
+</summary>
+Answer: True. Definition of hashing. 
+</details>
+
+<details> <summary>Hashing the same object multiple times can result in multiple hash codes
+ </summary>
+Answer: False. You have the same has for each object. 
+</details>
+
+<details> <summary> Hashing: When will collisions likely occur? </summary>
+Answer: When there are more objects than possible hash codes
+</details>
+
+<details> <summary> The hashCode() method is inherited from the Object class  </summary>
+Answer: True
+</details>
+
+<details> <summary> T/F Maps sometimes contain multiple values for the same key
+ </summary>
+Answer: False: Maps can only contain one value for each key
+</details>
+
+<details> <summary> Map keys and values can be any object, but not a primitive </summary>
+Answer: True: Map keys and values can only be Objects. If you want to use a primitive, just use the object representation of that primitive (e.g., int → Integer).
+</details>
+
+<details> <summary> T/F Catching Exceptions: You can have multiple catch blocks in a try-catch statement </summary>
+Answer: True
+</details>
+
+<details> <summary> T/F Catching Exceptions: You can have multiple try blocks in a try-catch statement </summary>
+Answer: False
+</details>
+
+<details> <summary> T/F Catching Exceptions: If any of the catch blocks execute, the code following the try-catch statement will not execute </summary>
+Answer: False - this is the point of the catch blocks, they make sure your program doesn’t simply quit if an exception is encountered 
+</details>
+
+<details> <summary> T/F Catching Exceptions: If an exception is thrown and not caught, the code following the try-catch statement will not execute </summary>
+Answer: True - your code will not execute and it will be as if the try-catch statement wasn’t there at all
+</details>
+
+<details> <summary> What are the characteristics of recursion (think: three things you need) </summary>
+Answer: base case (smallest possible input), recurisive case (defining function in terms of itself), must change it's state and move towards base state 
+</details>
+
+<details> <summary> What is the purpose of having a “main” method and a “helper” method in recursion? </summary>
+Answer: The main method is called by the user to solve the problem. If there is also a helper method, no recursion is done in the main method. It is usually used to “set up” the problem for recursion, for example: creating helpful data structures, or throwing exceptions for certain cases that cannot be handled by recursion. The helper method is the recursive one. It is called by the main method and usually is private. 
+</details>
+
+<details> <summary> You have a tree of n nodes and you have to search through the entire tree for a value. What is the runtime? </summary>
+Answer: O(n). Look at every node 
+</details>
+
+<details> <summary> You have a tree of n nodes and you have to search through the entire tree for a value. What is the runtime? </summary>
+Answer: O(n). Look at every node 
+</details>
+
+<details> <summary> What is bubble sort? </summary>
+Answer: starting at first element go through array an compare pairs of values and swap if needed. then repeat starting at the second element. repeat this all the until second to last element. 
+</details>
+
+<details> <summary> What is bubble sort best case and worst case? </summary>
+Answer:  Best case is an already sorted array (O(n)). Worst case when a value is in the spot furthest from where it should be ((O(n^2)).
+</details>
+
 
 ### Concept Overview
 
