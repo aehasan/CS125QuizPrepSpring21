@@ -2,7 +2,9 @@
 # The End
 
 ### Concepts
-* Algos
+* Algorithm Analysis, Lists, Hashing, Maps
+* Trees and Recursion
+* Sorting
 
 ### Concept Overview
 
