@@ -12,7 +12,7 @@ To understand the behavior of a function when the inputs get really large
 <details> <summary>T/F An algorithm with a runtime O(logn) is considered faster than an algorithm with a runtime O(n) </summary>
 True
 </details>
-<details> <summary>T/F An algorithm with a runtime O(logn) is alwayss faster than an algorithm with a runtime O(n) </summary>
+<details> <summary>T/F An algorithm with a runtime O(logn) is always faster than an algorithm with a runtime O(n) </summary>
 False</details>
 
 <details> <summary>
@@ -25,12 +25,12 @@ d. There are no obvious differences between lists and arrays <br>
 Answer: (b). Lists can change in size while arrays cannot. A is simply not true, and c is only true for the linked list implementation of lists, but not all lists.
 </details>
 
-ArrayLists: What are the runtimes for the following methods in a typical ArrayList implementation?
-get() <br>
-set() <br>
-add() *add at beginning* <br>
-insert() *(insert in middle)* <br>
-remove()
+ArrayLists: What are the runtimes for the following methods in a typical ArrayList implementation? <br>
+* get() <br>
+* set() <br>
+* add() *add at beginning* <br>
+* insert() *(insert in middle)* <br>
+* remove()
 <details> <summary> get() and set() </summary>
 Answer: O(1) - get() and set() are both simply array lookups for an ArrayList, and array lookups take constant time
 </details>
@@ -40,28 +40,29 @@ Answer: O(n) - add() and insert() are the same for ArrayLists. add(), insert() a
 </details>
 
 <details> <summary> LinkedLists: Linked lists maintain order by linking to a new Item object, each of which contain _______ and  _______. <br>
-An index, a value <br>
-A value, an object <br>
-An index, a reference <br>
-A value, a reference 
+a. An index, a value <br>
+b. A value, an object <br>
+c. An index, a reference <br>
+d. A value, a reference 
  </summary>
 Answer: (d). The Item objects contain the current value and a reference to the next item object. 
 </details>
 
-<details> <summary> For which method does LinkedList have a faster runtime than ArrayList? Add (at front)
-Get
-Set
-Insert (anywhere)
+<details> <summary> For which method does LinkedList have a faster runtime than ArrayList? <br>
+a. Add (at front)
+b. Get
+c. Set
+d. Insert (anywhere)
  </summary> 
 Answer: a.  LinkedList has a time complexity of O(1) for adding an item at the front of the list. This is because adding an item to the front of a LinkedList simply involves moving the start reference. This is constant time. Adding an item at any index of an ArrayList has time complexity of O(n). 
 </details>
 
-<details> <summary> Hashing a unique object should result in a unique hash code
+<details> <summary> T/F Hashing a unique object should result in a unique hash code
 </summary>
 Answer: True. Definition of hashing. 
 </details>
 
-<details> <summary>Hashing the same object multiple times can result in multiple hash codes
+<details> <summary> T/F Hashing the same object multiple times can result in multiple hash codes
  </summary>
 Answer: False. You have the same has for each object. 
 </details>
@@ -70,7 +71,7 @@ Answer: False. You have the same has for each object.
 Answer: When there are more objects than possible hash codes
 </details>
 
-<details> <summary> The hashCode() method is inherited from the Object class  </summary>
+<details> <summary> T/F The hashCode() method is inherited from the Object class  </summary>
 Answer: True
 </details>
 
@@ -79,7 +80,7 @@ Answer: True
 Answer: False: Maps can only contain one value for each key
 </details>
 
-<details> <summary> Map keys and values can be any object, but not a primitive </summary>
+<details> <summary> T/F Map keys and values can be any object, but not a primitive </summary>
 Answer: True: Map keys and values can only be Objects. If you want to use a primitive, just use the object representation of that primitive (e.g., int → Integer).
 </details>
 
