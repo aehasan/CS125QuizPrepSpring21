@@ -119,9 +119,6 @@ Answer: The main method is called by the user to solve the problem. If there is 
 Answer: O(n). Look at every node 
 </details>
 
-<details> <summary> You have a tree of n nodes and you have to search through the entire tree for a value. What is the runtime? </summary>
-Answer: O(n). Look at every node 
-</details>
 
 ### Sorting Algorithms
 <details> <summary> What is bubble sort? </summary>
