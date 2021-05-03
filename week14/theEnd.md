@@ -173,5 +173,5 @@ Quick Sort <br>
 2. Given a tree or a linkedlist of objects map the number of times each object appears in a Map<Object, Integer>
 3. Open Problem session
 ## Shameless Plug
-1. Please leave some feedback in the feedback form. The semesters over so if you wanna leave some constructive criticism please do!
+1. Please leave some feedback in the feedback form: https://forms.gle/yJLaYFaBtthPf3AP6. The semesters over so if you wanna leave some constructive criticism please do!
 2. Maybe become an assistant next semester?!
